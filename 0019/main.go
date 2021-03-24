@@ -9,7 +9,7 @@ type ListNode struct {
 
 // 设置快慢双指针
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
-	dummyNode := &ListNode{0, nil}
+	dummyNode := &ListNode{0, head}
 	fast, slow := head, dummyNode
 	for i := 0; i < n; i++ {
 		fast = fast.Next
