@@ -7,6 +7,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// 单独处理头节点的情况
 func removeElements(head *ListNode, val int) *ListNode {
 	for head != nil && head.Val == val {
 		head = head.Next
@@ -22,8 +23,24 @@ func removeElements(head *ListNode, val int) *ListNode {
 	return head
 }
 
+// 使用 dummy head 来统一处理头结点的情况
+func removeElements2(head *ListNode, val int) *ListNode {
+	dummyHead := &ListNode{-1, head}
+	pre := dummyHead
+	cur := head
+	for cur != nil {
+		if cur.Val == val {
+			pre.Next = cur.Next
+		} else {
+			pre = cur
+		}
+		cur = cur.Next
+	}
+	return dummyHead.Next
+}
+
 func main() {
-	fmt.Println(removeElements(
+	fmt.Println(removeElements2(
 		&ListNode{
 			1, &ListNode{
 				2, &ListNode{
