@@ -21,6 +21,22 @@ func reverseList(head *ListNode) *ListNode {
 	head.Next = nil
 	return newHead
 }
+
+// 迭代
+func reverseList2(head *ListNode) *ListNode {
+	pre := &ListNode{-1, head}
+	cur := head
+
+	for cur != nil {
+		tmp := cur.Next
+		cur.Next = pre
+
+		cur = tmp
+		pre = cur
+	}
+	return pre
+}
+
 func main() {
 	fmt.Println(reverseList(&ListNode{1, &ListNode{2, &ListNode{3, nil}}}))
 }
