@@ -22,6 +22,29 @@ func swapPairs(head *ListNode) *ListNode {
 	return tmpNext
 }
 
+func swapPairs2(head *ListNode) *ListNode {
+	if head == nil {
+		return head
+	}
+	dummyHead := &ListNode{-1, head}
+	head1 := dummyHead
+	head2 := head
+	head3 := head.Next
+
+	for head1.Next != nil && head1.Next.Next != nil {
+		head1.Next = head3
+		head2.Next = head3.Next
+		head3.Next = head2
+
+		head1 = head2
+		head2 = head2.Next
+		if head2 != nil {
+			head3 = head2.Next
+		}
+	}
+	return dummyHead.Next
+}
+
 func main() {
-	fmt.Println(swapPairs(&ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, nil}}}}))
+	fmt.Println(swapPairs2(&ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, nil}}}}))
 }
