@@ -23,15 +23,15 @@ func threeSum(nums []int) [][]int {
 		if nums[i] > 0 {
 			return res
 		}
-		if i>0 && nums[i] == nums[i-1] {
+		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
 
-		lp := i+1
-		rp := len(nums)-1
+		lp := i + 1
+		rp := len(nums) - 1
 
 		for lp < rp {
-			if nums[i] + nums[lp] + nums[rp] == 0 {
+			if nums[i]+nums[lp]+nums[rp] == 0 {
 				res = append(res, []int{nums[i], nums[lp], nums[rp]})
 				for lp < rp && nums[lp] == nums[lp+1] {
 					lp++
@@ -41,7 +41,7 @@ func threeSum(nums []int) [][]int {
 				}
 				lp++
 				rp--
-			} else if nums[i] + nums[lp] + nums[rp] > 0 {
+			} else if nums[i]+nums[lp]+nums[rp] > 0 {
 				rp--
 			} else {
 				lp++
@@ -53,4 +53,5 @@ func threeSum(nums []int) [][]int {
 
 func main() {
 	fmt.Println(threeSum([]int{-1, 0, 1, 2, -1, -4}))
+	fmt.Println(threeSum([]int{0, 0, 0, 0, 0, 0}))
 }
