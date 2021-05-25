@@ -1,0 +1,4 @@
+#!/bin/bash
+make build
+git add README.md
+echo "README updated"
