@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|32|40|2|
-|Medium|19|28|1|
-|Hard|0|3|0|
-|Total|51|71|3|
+|Medium|20|30|1|
+|Hard|0|2|0|
+|Total|52|72|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -15,7 +15,7 @@
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|Medium|
 |[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Rust](./algorithms/0003/rust.rs)|Medium|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|Easy|
-|[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)|[Go](./algorithms/0015/main.go)|Medium|
+|[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|Medium|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Python](./algorithms/0017/letter_combinations.py)|Medium|
 |[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)|[Go](./algorithms/0018/main.go)|Medium|
 |[19](./algorithms/0019)|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Go](./algorithms/0019/main.go)&nbsp;&nbsp;[Python](./algorithms/0019/remove_nth_from_end.py)|Medium|
@@ -49,7 +49,7 @@
 |[104](./algorithms/0104)|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](./algorithms/0104/main.go)&nbsp;&nbsp;[Python](./algorithms/0104/max_depth.py)|Easy|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|Easy|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|Easy|
-|[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|Hard|
+|[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|Medium|
 |[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Python](./algorithms/0131/partition.py)|Medium|
 |[136](./algorithms/0136)|[Single Number](https://leetcode.com/problems/single-number/)|[Go](./algorithms/0136/main.go)&nbsp;&nbsp;[Python](./algorithms/0136/single_number.py)|Easy|
 |[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)|Easy|
@@ -59,6 +59,7 @@
 |[146](./algorithms/0146)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Python](./algorithms/0146/lru.py)|Medium|
 |[148](./algorithms/0148)|[Sort List](https://leetcode.com/problems/sort-list/)|[Go](./algorithms/0148/main.go)|Medium|
 |[150](./algorithms/0150)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Python](./algorithms/0150/eval_rpn.py)|Medium|
+|[151](./algorithms/0151)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Go](./algorithms/0151/main.go)|Medium|
 |[155](./algorithms/0155)|[Min Stack](https://leetcode.com/problems/min-stack/)|[Go](./algorithms/0155/main.go)&nbsp;&nbsp;[Python](./algorithms/0155/min_stack.py)|Easy|
 |[167](./algorithms/0167)|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Go](./algorithms/0167/main.go)&nbsp;&nbsp;[Python](./algorithms/0167/two_sum.py)|Easy|
 |[199](./algorithms/0199)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Go](./algorithms/0199/main.go)&nbsp;&nbsp;[Python](./algorithms/0199/right_side_view.py)|Medium|
