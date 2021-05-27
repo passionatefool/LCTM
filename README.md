@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|33|40|2|
-|Medium|20|30|1|
+|Medium|20|31|1|
 |Hard|0|2|0|
-|Total|53|72|3|
+|Total|53|73|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -17,7 +17,7 @@
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|Easy|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|Medium|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Python](./algorithms/0017/letter_combinations.py)|Medium|
-|[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)|[Go](./algorithms/0018/main.go)|Medium|
+|[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)|[Go](./algorithms/0018/main.go)&nbsp;&nbsp;[Python](./algorithms/0018/four_sum.py)|Medium|
 |[19](./algorithms/0019)|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Go](./algorithms/0019/main.go)&nbsp;&nbsp;[Python](./algorithms/0019/remove_nth_from_end.py)|Medium|
 |[20](./algorithms/0020)|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Go](./algorithms/0020/main.go)&nbsp;&nbsp;[Python](./algorithms/0020/is_valid.py)&nbsp;&nbsp;[Rust](./algorithms/0020/rust.rs)|Easy|
 |[21](./algorithms/0021)|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Go](./algorithms/0021/main.go)|Easy|
