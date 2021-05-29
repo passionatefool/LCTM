@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|33|40|2|
-|Medium|20|31|1|
+|Easy|34|40|2|
+|Medium|20|32|1|
 |Hard|0|2|0|
-|Total|53|73|3|
+|Total|54|74|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -85,7 +85,9 @@
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|Easy|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python](./algorithms/0404/sum_of_left_leaves.py)|Easy|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|Medium|
+|[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|Easy|
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|Hard|
+|[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Python](./algorithms/0491/find_subsequences.py)|Medium|
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](./algorithms/0509/fib.py)|Easy|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|Easy|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|Easy|
