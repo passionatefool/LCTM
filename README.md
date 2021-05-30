@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|34|40|2|
+|Easy|35|41|2|
 |Medium|20|32|1|
 |Hard|0|2|0|
-|Total|54|74|3|
+|Total|55|75|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -20,7 +20,7 @@
 |[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)|[Go](./algorithms/0018/main.go)&nbsp;&nbsp;[Python](./algorithms/0018/four_sum.py)|Medium|
 |[19](./algorithms/0019)|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Go](./algorithms/0019/main.go)&nbsp;&nbsp;[Python](./algorithms/0019/remove_nth_from_end.py)|Medium|
 |[20](./algorithms/0020)|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Go](./algorithms/0020/main.go)&nbsp;&nbsp;[Python](./algorithms/0020/is_valid.py)&nbsp;&nbsp;[Rust](./algorithms/0020/rust.rs)|Easy|
-|[21](./algorithms/0021)|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Go](./algorithms/0021/main.go)|Easy|
+|[21](./algorithms/0021)|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Go](./algorithms/0021/main.go)&nbsp;&nbsp;[Python](./algorithms/0021/merge_two_lists.py)|Easy|
 |[24](./algorithms/0024)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Go](./algorithms/0024/main.go)&nbsp;&nbsp;[Python](./algorithms/0024/swap_pairs.py)|Medium|
 |[26](./algorithms/0026)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Go](./algorithms/0026/main.go)&nbsp;&nbsp;[Python](./algorithms/0026/remove_duplicates.py)|Easy|
 |[27](./algorithms/0027)|[Remove Element](https://leetcode.com/problems/remove-element/)|[Go](./algorithms/0027/main.go)&nbsp;&nbsp;[Python](./algorithms/0027/remove_element.py)|Easy|
@@ -73,7 +73,7 @@
 |[222](./algorithms/0222)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Python](./algorithms/0222/count_nodes.py)|Medium|
 |[226](./algorithms/0226)|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Go](./algorithms/0226/main.go)&nbsp;&nbsp;[Python](./algorithms/0226/invert_tree.py)|Easy|
 |[230](./algorithms/0230)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python](./algorithms/0230/kth_smallest.py)|Medium|
-|[232](./algorithms/0232)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python](./algorithms/0232/my_queue.py)|Easy|
+|[232](./algorithms/0232)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Go](./algorithms/0232/main.go)&nbsp;&nbsp;[Python](./algorithms/0232/my_queue.py)|Easy|
 |[234](./algorithms/0234)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Go](./algorithms/0234/main.go)&nbsp;&nbsp;[Python](./algorithms/0234/is_palindrome.py)|Easy|
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)|Easy|
 |[263](./algorithms/0263)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Go](./algorithms/0263/main.go)&nbsp;&nbsp;[Python](./algorithms/0263/is_ugly.py)|Easy|
