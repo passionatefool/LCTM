@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|36|42|2|
+|Easy|37|42|2|
 |Medium|20|32|1|
 |Hard|0|2|0|
-|Total|56|76|3|
+|Total|57|76|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -97,4 +97,4 @@
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|Medium|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|Easy|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|Easy|
-|[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](./algorithms/1047/remove_duplicates.py)|Easy|
+|[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|Easy|
