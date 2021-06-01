@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|36|41|2|
+|Easy|36|42|2|
 |Medium|20|32|1|
 |Hard|0|2|0|
-|Total|56|75|3|
+|Total|56|76|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -71,7 +71,7 @@
 |[216](./algorithms/0216)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python](./algorithms/0216/combination_sum3.py)|Medium|
 |[219](./algorithms/0219)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python](./algorithms/0219/contains_nearby_duplicate.py)|Easy|
 |[222](./algorithms/0222)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Python](./algorithms/0222/count_nodes.py)|Medium|
-|[225](./algorithms/0225)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Go](./algorithms/0225/main.go)|Easy|
+|[225](./algorithms/0225)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Go](./algorithms/0225/main.go)&nbsp;&nbsp;[Python](./algorithms/0225/my_stack.py)|Easy|
 |[226](./algorithms/0226)|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Go](./algorithms/0226/main.go)&nbsp;&nbsp;[Python](./algorithms/0226/invert_tree.py)|Easy|
 |[230](./algorithms/0230)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python](./algorithms/0230/kth_smallest.py)|Medium|
 |[232](./algorithms/0232)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Go](./algorithms/0232/main.go)&nbsp;&nbsp;[Python](./algorithms/0232/my_queue.py)|Easy|
