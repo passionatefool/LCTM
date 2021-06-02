@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|36|42|2|
+|Easy|37|43|2|
 |Medium|20|32|1|
 |Hard|0|2|0|
-|Total|56|76|3|
+|Total|57|77|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -86,6 +86,7 @@
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|Easy|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python](./algorithms/0404/sum_of_left_leaves.py)|Easy|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|Medium|
+|[455](./algorithms/0455)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Python](./algorithms/0455/find_content_children.py)|Easy|
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|Easy|
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|Hard|
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Python](./algorithms/0491/find_subsequences.py)|Medium|
@@ -97,4 +98,4 @@
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|Medium|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|Easy|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|Easy|
-|[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Python](./algorithms/1047/remove_duplicates.py)|Easy|
+|[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|Easy|
