@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|37|43|2|
-|Medium|20|32|1|
+|Easy|37|44|2|
+|Medium|21|34|1|
 |Hard|0|2|0|
-|Total|57|77|3|
+|Total|58|80|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -30,6 +30,7 @@
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|Medium|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|Hard|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|Easy|
+|[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|Medium|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)|Medium|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|Medium|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|Easy|
@@ -49,6 +50,7 @@
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
 |[104](./algorithms/0104)|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](./algorithms/0104/main.go)&nbsp;&nbsp;[Python](./algorithms/0104/max_depth.py)|Easy|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|Easy|
+|[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python](./algorithms/0122/max_profit.py)|Easy|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|Easy|
 |[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|Medium|
 |[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Python](./algorithms/0131/partition.py)|Medium|
@@ -59,7 +61,7 @@
 |[145](./algorithms/0145)|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Go](./algorithms/0145/main.go)&nbsp;&nbsp;[Python](./algorithms/0145/postorder_traversal.py)|Easy|
 |[146](./algorithms/0146)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Python](./algorithms/0146/lru.py)|Medium|
 |[148](./algorithms/0148)|[Sort List](https://leetcode.com/problems/sort-list/)|[Go](./algorithms/0148/main.go)|Medium|
-|[150](./algorithms/0150)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Python](./algorithms/0150/eval_rpn.py)|Medium|
+|[150](./algorithms/0150)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Go](./algorithms/0150/main.go)&nbsp;&nbsp;[Python](./algorithms/0150/eval_rpn.py)|Medium|
 |[151](./algorithms/0151)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Go](./algorithms/0151/main.go)|Medium|
 |[155](./algorithms/0155)|[Min Stack](https://leetcode.com/problems/min-stack/)|[Go](./algorithms/0155/main.go)&nbsp;&nbsp;[Python](./algorithms/0155/min_stack.py)|Easy|
 |[167](./algorithms/0167)|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Go](./algorithms/0167/main.go)&nbsp;&nbsp;[Python](./algorithms/0167/two_sum.py)|Easy|
@@ -83,6 +85,7 @@
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|Medium|
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|Easy|
 |[349](./algorithms/0349)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Go](./algorithms/0349/main.go)&nbsp;&nbsp;[Python](./algorithms/0349/intersection.py)|Easy|
+|[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Python](./algorithms/0376/wiggle_max_length.py)|Medium|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|Easy|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python](./algorithms/0404/sum_of_left_leaves.py)|Easy|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|Medium|
