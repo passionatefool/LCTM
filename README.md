@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|37|44|2|
+|Easy|37|45|2|
 |Medium|21|35|1|
 |Hard|1|2|0|
-|Total|59|81|3|
+|Total|59|82|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -24,7 +24,7 @@
 |[24](./algorithms/0024)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Go](./algorithms/0024/main.go)&nbsp;&nbsp;[Python](./algorithms/0024/swap_pairs.py)|Medium|
 |[26](./algorithms/0026)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Go](./algorithms/0026/main.go)&nbsp;&nbsp;[Python](./algorithms/0026/remove_duplicates.py)|Easy|
 |[27](./algorithms/0027)|[Remove Element](https://leetcode.com/problems/remove-element/)|[Go](./algorithms/0027/main.go)&nbsp;&nbsp;[Python](./algorithms/0027/remove_element.py)|Easy|
-|[28](./algorithms/0028)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Go](./algorithms/0028/main.go)|Easy|
+|[28](./algorithms/0028)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Go](./algorithms/0028/main.go)&nbsp;&nbsp;[Python](./algorithms/0028/str_str.py)|Easy|
 |[35](./algorithms/0035)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Go](./algorithms/0035/main.go)&nbsp;&nbsp;[Python](./algorithms/0035/search_insert.py)|Easy|
 |[39](./algorithms/0039)|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python](./algorithms/0039/combination_sum.py)|Medium|
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|Medium|
