@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|37|44|2|
-|Medium|21|34|1|
-|Hard|0|2|0|
-|Total|58|80|3|
+|Medium|21|35|1|
+|Hard|1|2|0|
+|Total|59|81|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -29,6 +29,7 @@
 |[39](./algorithms/0039)|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python](./algorithms/0039/combination_sum.py)|Medium|
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|Medium|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|Hard|
+|[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|Medium|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|Easy|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|Medium|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)|Medium|
@@ -78,6 +79,7 @@
 |[230](./algorithms/0230)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python](./algorithms/0230/kth_smallest.py)|Medium|
 |[232](./algorithms/0232)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Go](./algorithms/0232/main.go)&nbsp;&nbsp;[Python](./algorithms/0232/my_queue.py)|Easy|
 |[234](./algorithms/0234)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Go](./algorithms/0234/main.go)&nbsp;&nbsp;[Python](./algorithms/0234/is_palindrome.py)|Easy|
+|[239](./algorithms/0239)|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Go](./algorithms/0239/main.go)|Hard|
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)|Easy|
 |[263](./algorithms/0263)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Go](./algorithms/0263/main.go)&nbsp;&nbsp;[Python](./algorithms/0263/is_ugly.py)|Easy|
 |[283](./algorithms/0283)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Go](./algorithms/0283/main.go)&nbsp;&nbsp;[Python](./algorithms/0283/move_zeroes.py)|Easy|
