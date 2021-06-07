@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|37|45|2|
-|Medium|21|35|1|
+|Medium|21|36|1|
 |Hard|1|2|0|
-|Total|59|82|3|
+|Total|59|83|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -32,7 +32,7 @@
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|Medium|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|Easy|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|Medium|
-|[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)|Medium|
+|[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|Medium|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|Medium|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|Easy|
 |[70](./algorithms/0070)|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python](./algorithms/0070/climb_stairs.py)|Easy|
