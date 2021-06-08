@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|37|45|2|
-|Medium|21|35|1|
+|Medium|22|36|1|
 |Hard|1|2|0|
-|Total|59|82|3|
+|Total|60|83|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -32,7 +32,7 @@
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|Medium|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|Easy|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|Medium|
-|[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)|Medium|
+|[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|Medium|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|Medium|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|Easy|
 |[70](./algorithms/0070)|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python](./algorithms/0070/climb_stairs.py)|Easy|
@@ -86,6 +86,7 @@
 |[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python](./algorithms/0300/length_of_lis.py)|Medium|
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|Medium|
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|Easy|
+|[347](./algorithms/0347)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Go](./algorithms/0347/main.go)|Medium|
 |[349](./algorithms/0349)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Go](./algorithms/0349/main.go)&nbsp;&nbsp;[Python](./algorithms/0349/intersection.py)|Easy|
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Python](./algorithms/0376/wiggle_max_length.py)|Medium|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|Easy|
