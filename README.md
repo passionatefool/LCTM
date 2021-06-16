@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|38|45|2|
-|Medium|23|36|1|
+|Medium|23|37|1|
 |Hard|1|2|0|
-|Total|62|83|3|
+|Total|62|84|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -50,7 +50,7 @@
 |[102](./algorithms/0102)|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Go](./algorithms/0102/main.go)&nbsp;&nbsp;[Python](./algorithms/0102/level_order.py)|Medium|
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
 |[104](./algorithms/0104)|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](./algorithms/0104/main.go)&nbsp;&nbsp;[Python](./algorithms/0104/max_depth.py)|Easy|
-|[107](./algorithms/0107)|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Go](./algorithms/0107/main.go)|Medium|
+|[107](./algorithms/0107)|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Go](./algorithms/0107/main.go)&nbsp;&nbsp;[Python](./algorithms/0107/level_order_bottom.py)|Medium|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|Easy|
 |[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python](./algorithms/0122/max_profit.py)|Easy|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|Easy|
