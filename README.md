@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|38|45|2|
-|Medium|23|37|1|
+|Medium|24|37|1|
 |Hard|1|2|0|
-|Total|62|84|3|
+|Total|63|84|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -92,6 +92,7 @@
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Python](./algorithms/0376/wiggle_max_length.py)|Medium|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|Easy|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python](./algorithms/0404/sum_of_left_leaves.py)|Easy|
+|[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)|Medium|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|Medium|
 |[455](./algorithms/0455)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Python](./algorithms/0455/find_content_children.py)|Easy|
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|Easy|
