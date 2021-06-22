@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|38|45|2|
-|Medium|25|38|1|
+|Medium|27|38|1|
 |Hard|1|2|0|
-|Total|64|85|3|
+|Total|66|85|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -51,6 +51,8 @@
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
 |[104](./algorithms/0104)|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](./algorithms/0104/main.go)&nbsp;&nbsp;[Python](./algorithms/0104/max_depth.py)|Easy|
 |[107](./algorithms/0107)|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Go](./algorithms/0107/main.go)&nbsp;&nbsp;[Python](./algorithms/0107/level_order_bottom.py)|Medium|
+|[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)|Medium|
+|[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)|Medium|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|Easy|
 |[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python](./algorithms/0122/max_profit.py)|Easy|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|Easy|
