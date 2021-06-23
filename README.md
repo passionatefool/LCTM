@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|38|45|2|
-|Medium|25|37|1|
+|Medium|25|38|1|
 |Hard|1|2|0|
-|Total|64|84|3|
+|Total|64|85|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -99,7 +99,7 @@
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|Hard|
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Python](./algorithms/0491/find_subsequences.py)|Medium|
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](./algorithms/0509/fib.py)|Easy|
-|[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)|Medium|
+|[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|Medium|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|Easy|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|Easy|
 |[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python](./algorithms/0617/merge_trees.py)|Easy|
