@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|40|47|2|
-|Medium|27|40|1|
+|Easy|41|47|2|
+|Medium|28|40|1|
 |Hard|1|2|0|
-|Total|68|89|3|
+|Total|70|89|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -51,6 +51,7 @@
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
 |[104](./algorithms/0104)|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](./algorithms/0104/main.go)&nbsp;&nbsp;[Python](./algorithms/0104/max_depth.py)|Easy|
 |[107](./algorithms/0107)|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Go](./algorithms/0107/main.go)&nbsp;&nbsp;[Python](./algorithms/0107/level_order_bottom.py)|Medium|
+|[110](./algorithms/0110)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Go](./algorithms/0110/main.go)|Easy|
 |[111](./algorithms/0111)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Go](./algorithms/0111/main.go)&nbsp;&nbsp;[Python](./algorithms/0111/min_depth.py)|Easy|
 |[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)&nbsp;&nbsp;[Python](./algorithms/0116/connect.py)|Medium|
 |[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)&nbsp;&nbsp;[Python](./algorithms/0117/connect.py)|Medium|
@@ -77,7 +78,7 @@
 |[209](./algorithms/0209)|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Go](./algorithms/0209/main.go)&nbsp;&nbsp;[Python](./algorithms/0209/min_sub_array_len.py)|Medium|
 |[216](./algorithms/0216)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python](./algorithms/0216/combination_sum3.py)|Medium|
 |[219](./algorithms/0219)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python](./algorithms/0219/contains_nearby_duplicate.py)|Easy|
-|[222](./algorithms/0222)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Python](./algorithms/0222/count_nodes.py)|Medium|
+|[222](./algorithms/0222)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Go](./algorithms/0222/main.go)&nbsp;&nbsp;[Python](./algorithms/0222/count_nodes.py)|Medium|
 |[225](./algorithms/0225)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Go](./algorithms/0225/main.go)&nbsp;&nbsp;[Python](./algorithms/0225/my_stack.py)|Easy|
 |[226](./algorithms/0226)|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Go](./algorithms/0226/main.go)&nbsp;&nbsp;[Python](./algorithms/0226/invert_tree.py)|Easy|
 |[230](./algorithms/0230)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python](./algorithms/0230/kth_smallest.py)|Medium|
