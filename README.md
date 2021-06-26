@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|41|48|2|
+|Easy|42|49|2|
 |Medium|28|40|1|
 |Hard|1|2|0|
-|Total|70|90|3|
+|Total|71|91|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -86,6 +86,7 @@
 |[234](./algorithms/0234)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Go](./algorithms/0234/main.go)&nbsp;&nbsp;[Python](./algorithms/0234/is_palindrome.py)|Easy|
 |[239](./algorithms/0239)|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Go](./algorithms/0239/main.go)|Hard|
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)|Easy|
+|[257](./algorithms/0257)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Go](./algorithms/0257/main.go)&nbsp;&nbsp;[Python](./algorithms/0257/binary_tree_paths.py)|Easy|
 |[263](./algorithms/0263)|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Go](./algorithms/0263/main.go)&nbsp;&nbsp;[Python](./algorithms/0263/is_ugly.py)|Easy|
 |[283](./algorithms/0283)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Go](./algorithms/0283/main.go)&nbsp;&nbsp;[Python](./algorithms/0283/move_zeroes.py)|Easy|
 |[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python](./algorithms/0300/length_of_lis.py)|Medium|
