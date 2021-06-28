@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|42|51|2|
+|Easy|44|51|2|
 |Medium|28|40|1|
 |Hard|1|2|0|
-|Total|71|93|3|
+|Total|73|93|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -46,6 +46,7 @@
 |[92](./algorithms/0092)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Go](./algorithms/0092/main.go)&nbsp;&nbsp;[Python](./algorithms/0092/reverse_between.py)|Medium|
 |[93](./algorithms/0093)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Python](./algorithms/0093/restore_ip_addresses.py)|Medium|
 |[98](./algorithms/0098)|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Go](./algorithms/0098/main.go)&nbsp;&nbsp;[Python](./algorithms/0098/is_valid_bst.py)|Medium|
+|[100](./algorithms/0100)|[Same Tree](https://leetcode.com/problems/same-tree/)|[Go](./algorithms/0100/main.go)|Easy|
 |[101](./algorithms/0101)|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Go](./algorithms/0101/main.go)&nbsp;&nbsp;[Python](./algorithms/0101/is_symmetric.py)|Easy|
 |[102](./algorithms/0102)|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Go](./algorithms/0102/main.go)&nbsp;&nbsp;[Python](./algorithms/0102/level_order.py)|Medium|
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
@@ -96,7 +97,7 @@
 |[349](./algorithms/0349)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Go](./algorithms/0349/main.go)&nbsp;&nbsp;[Python](./algorithms/0349/intersection.py)|Easy|
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[Python](./algorithms/0376/wiggle_max_length.py)|Medium|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|Easy|
-|[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python](./algorithms/0404/sum_of_left_leaves.py)|Easy|
+|[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|Easy|
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)|Medium|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|Medium|
 |[455](./algorithms/0455)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Python](./algorithms/0455/find_content_children.py)|Easy|
