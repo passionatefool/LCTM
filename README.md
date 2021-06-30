@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|45|51|2|
-|Medium|30|41|1|
+|Easy|45|52|2|
+|Medium|30|42|1|
 |Hard|1|2|0|
-|Total|76|94|3|
+|Total|76|96|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -54,8 +54,8 @@
 |[107](./algorithms/0107)|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Go](./algorithms/0107/main.go)&nbsp;&nbsp;[Python](./algorithms/0107/level_order_bottom.py)|Medium|
 |[110](./algorithms/0110)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Go](./algorithms/0110/main.go)&nbsp;&nbsp;[Python](./algorithms/0110/is_balanced.py)|Easy|
 |[111](./algorithms/0111)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Go](./algorithms/0111/main.go)&nbsp;&nbsp;[Python](./algorithms/0111/min_depth.py)|Easy|
-|[112](./algorithms/0112)|[Path Sum](https://leetcode.com/problems/path-sum/)|[Go](./algorithms/0112/main.go)|Easy|
-|[113](./algorithms/0113)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Go](./algorithms/0113/main.go)|Medium|
+|[112](./algorithms/0112)|[Path Sum](https://leetcode.com/problems/path-sum/)|[Go](./algorithms/0112/main.go)&nbsp;&nbsp;[Python](./algorithms/0112/has_path_sum.py)|Easy|
+|[113](./algorithms/0113)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Go](./algorithms/0113/main.go)&nbsp;&nbsp;[Python](./algorithms/0113/path_sum.py)|Medium|
 |[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)&nbsp;&nbsp;[Python](./algorithms/0116/connect.py)|Medium|
 |[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)&nbsp;&nbsp;[Python](./algorithms/0117/connect.py)|Medium|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|Easy|
