@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|45|52|2|
+|Easy|45|53|2|
 |Medium|31|42|1|
 |Hard|1|2|0|
-|Total|77|96|3|
+|Total|77|97|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -46,7 +46,7 @@
 |[92](./algorithms/0092)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Go](./algorithms/0092/main.go)&nbsp;&nbsp;[Python](./algorithms/0092/reverse_between.py)|Medium|
 |[93](./algorithms/0093)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Python](./algorithms/0093/restore_ip_addresses.py)|Medium|
 |[98](./algorithms/0098)|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Go](./algorithms/0098/main.go)&nbsp;&nbsp;[Python](./algorithms/0098/is_valid_bst.py)|Medium|
-|[100](./algorithms/0100)|[Same Tree](https://leetcode.com/problems/same-tree/)|[Go](./algorithms/0100/main.go)|Easy|
+|[100](./algorithms/0100)|[Same Tree](https://leetcode.com/problems/same-tree/)|[Go](./algorithms/0100/main.go)&nbsp;&nbsp;[Python](./algorithms/0100/is_same_tree.py)|Easy|
 |[101](./algorithms/0101)|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Go](./algorithms/0101/main.go)&nbsp;&nbsp;[Python](./algorithms/0101/is_symmetric.py)|Easy|
 |[102](./algorithms/0102)|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Go](./algorithms/0102/main.go)&nbsp;&nbsp;[Python](./algorithms/0102/level_order.py)|Medium|
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
