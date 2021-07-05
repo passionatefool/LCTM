@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|45|53|2|
-|Medium|31|42|1|
+|Medium|32|43|1|
 |Hard|1|2|0|
-|Total|77|97|3|
+|Total|78|98|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -51,6 +51,7 @@
 |[102](./algorithms/0102)|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Go](./algorithms/0102/main.go)&nbsp;&nbsp;[Python](./algorithms/0102/level_order.py)|Medium|
 |[103](./algorithms/0103)|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)|[Go](./algorithms/0103/main.go)&nbsp;&nbsp;[Python](./algorithms/0103/zigzag_level_order.py)|Medium|
 |[104](./algorithms/0104)|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Go](./algorithms/0104/main.go)&nbsp;&nbsp;[Python](./algorithms/0104/max_depth.py)|Easy|
+|[105](./algorithms/0105)|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Go](./algorithms/0105/main.go)&nbsp;&nbsp;[Python](./algorithms/0105/build_tree.py)|Medium|
 |[106](./algorithms/0106)|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Go](./algorithms/0106/main.go)|Medium|
 |[107](./algorithms/0107)|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Go](./algorithms/0107/main.go)&nbsp;&nbsp;[Python](./algorithms/0107/level_order_bottom.py)|Medium|
 |[110](./algorithms/0110)|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Go](./algorithms/0110/main.go)&nbsp;&nbsp;[Python](./algorithms/0110/is_balanced.py)|Easy|
