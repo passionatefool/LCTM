@@ -13,7 +13,7 @@
 |:---:|:---:|:---:|:---:|
 |[1](./algorithms/0001)|[Two Sum](https://leetcode.com/problems/two-sum/)|[Go](./algorithms/0001/main.go)&nbsp;&nbsp;[Python](./algorithms/0001/two_sum.py)&nbsp;&nbsp;[Rust](./algorithms/0001/rust.rs)|Easy|
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|Medium|
-|[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Rust](./algorithms/0003/rust.rs)|Medium|
+|[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)  [Rust](./algorithms/0003/rust.rs)|Medium|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|Easy|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|Medium|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Python](./algorithms/0017/letter_combinations.py)|Medium|
