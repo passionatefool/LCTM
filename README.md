@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|46|53|2|
-|Medium|33|44|1|
+|Medium|33|45|1|
 |Hard|1|2|0|
-|Total|80|99|3|
+|Total|80|100|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -68,6 +68,7 @@
 |[136](./algorithms/0136)|[Single Number](https://leetcode.com/problems/single-number/)|[Go](./algorithms/0136/main.go)&nbsp;&nbsp;[Python](./algorithms/0136/single_number.py)|Easy|
 |[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)|Easy|
 |[142](./algorithms/0142)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Go](./algorithms/0142/main.go)|Medium|
+|[143](./algorithms/0143)|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Python](./algorithms/0143/reorder_list.py)|Medium|
 |[144](./algorithms/0144)|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Go](./algorithms/0144/main.go)&nbsp;&nbsp;[Python](./algorithms/0144/preorder_traversal.py)|Easy|
 |[145](./algorithms/0145)|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Go](./algorithms/0145/main.go)&nbsp;&nbsp;[Python](./algorithms/0145/postorder_traversal.py)|Easy|
 |[146](./algorithms/0146)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Python](./algorithms/0146/lru.py)|Medium|
