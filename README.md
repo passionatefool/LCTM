@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|45|53|2|
-|Medium|33|44|1|
+|Easy|46|53|2|
+|Medium|33|45|1|
 |Hard|1|2|0|
-|Total|79|99|3|
+|Total|80|100|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -68,6 +68,7 @@
 |[136](./algorithms/0136)|[Single Number](https://leetcode.com/problems/single-number/)|[Go](./algorithms/0136/main.go)&nbsp;&nbsp;[Python](./algorithms/0136/single_number.py)|Easy|
 |[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)|Easy|
 |[142](./algorithms/0142)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Go](./algorithms/0142/main.go)|Medium|
+|[143](./algorithms/0143)|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Python](./algorithms/0143/reorder_list.py)|Medium|
 |[144](./algorithms/0144)|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Go](./algorithms/0144/main.go)&nbsp;&nbsp;[Python](./algorithms/0144/preorder_traversal.py)|Easy|
 |[145](./algorithms/0145)|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Go](./algorithms/0145/main.go)&nbsp;&nbsp;[Python](./algorithms/0145/postorder_traversal.py)|Easy|
 |[146](./algorithms/0146)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Python](./algorithms/0146/lru.py)|Medium|
@@ -114,7 +115,7 @@
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|Easy|
 |[559](./algorithms/0559)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Go](./algorithms/0559/main.go)&nbsp;&nbsp;[Python](./algorithms/0559/max_depth.py)|Easy|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|Easy|
-|[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python](./algorithms/0617/merge_trees.py)|Easy|
+|[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Go](./algorithms/0617/main.go)&nbsp;&nbsp;[Python](./algorithms/0617/merge_trees.py)|Easy|
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|Easy|
 |[654](./algorithms/0654)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Go](./algorithms/0654/main.go)&nbsp;&nbsp;[Python](./algorithms/0654/construct_maximum_binary_tree.py)|Medium|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|Easy|
