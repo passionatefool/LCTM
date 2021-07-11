@@ -30,6 +30,7 @@
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|Medium|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|Hard|
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|Medium|
+|[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|Medium|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|Easy|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|Medium|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|Medium|
