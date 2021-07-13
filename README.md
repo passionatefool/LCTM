@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|47|53|2|
-|Medium|34|45|1|
+|Easy|48|53|2|
+|Medium|34|46|1|
 |Hard|1|3|0|
-|Total|82|101|3|
+|Total|83|102|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -30,6 +30,7 @@
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|Medium|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|Hard|
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|Medium|
+|[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|Medium|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|Easy|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|Medium|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|Medium|
@@ -113,6 +114,7 @@
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](./algorithms/0509/fib.py)|Easy|
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|Medium|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|Medium|
+|[530](./algorithms/0530)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Go](./algorithms/0530/main.go)|Easy|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|Easy|
 |[559](./algorithms/0559)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Go](./algorithms/0559/main.go)&nbsp;&nbsp;[Python](./algorithms/0559/max_depth.py)|Easy|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|Easy|
