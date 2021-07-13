@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|48|53|2|
+|Easy|49|54|2|
 |Medium|34|46|1|
 |Hard|1|3|0|
-|Total|83|102|3|
+|Total|84|103|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -68,7 +68,7 @@
 |[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|Medium|
 |[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Python](./algorithms/0131/partition.py)|Medium|
 |[136](./algorithms/0136)|[Single Number](https://leetcode.com/problems/single-number/)|[Go](./algorithms/0136/main.go)&nbsp;&nbsp;[Python](./algorithms/0136/single_number.py)|Easy|
-|[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)|Easy|
+|[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)&nbsp;&nbsp;[Python](./algorithms/0141/has_cycle.py)|Easy|
 |[142](./algorithms/0142)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Go](./algorithms/0142/main.go)|Medium|
 |[143](./algorithms/0143)|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Python](./algorithms/0143/reorder_list.py)|Medium|
 |[144](./algorithms/0144)|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Go](./algorithms/0144/main.go)&nbsp;&nbsp;[Python](./algorithms/0144/preorder_traversal.py)|Easy|
@@ -111,6 +111,7 @@
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|Easy|
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|Hard|
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)|[Python](./algorithms/0491/find_subsequences.py)|Medium|
+|[501](./algorithms/0501)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Go](./algorithms/0501/main.go)|Easy|
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python](./algorithms/0509/fib.py)|Easy|
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|Medium|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|Medium|
