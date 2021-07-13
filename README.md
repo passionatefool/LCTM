@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|49|54|2|
-|Medium|34|46|1|
+|Medium|34|47|1|
 |Hard|1|3|0|
-|Total|84|103|3|
+|Total|84|104|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -76,7 +76,7 @@
 |[146](./algorithms/0146)|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Python](./algorithms/0146/lru.py)|Medium|
 |[148](./algorithms/0148)|[Sort List](https://leetcode.com/problems/sort-list/)|[Go](./algorithms/0148/main.go)|Medium|
 |[150](./algorithms/0150)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Go](./algorithms/0150/main.go)&nbsp;&nbsp;[Python](./algorithms/0150/eval_rpn.py)|Medium|
-|[151](./algorithms/0151)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Go](./algorithms/0151/main.go)|Medium|
+|[151](./algorithms/0151)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Go](./algorithms/0151/main.go)&nbsp;&nbsp;[Python](./algorithms/0151/reverse_words.py)|Medium|
 |[155](./algorithms/0155)|[Min Stack](https://leetcode.com/problems/min-stack/)|[Go](./algorithms/0155/main.go)&nbsp;&nbsp;[Python](./algorithms/0155/min_stack.py)|Easy|
 |[167](./algorithms/0167)|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Go](./algorithms/0167/main.go)&nbsp;&nbsp;[Python](./algorithms/0167/two_sum.py)|Easy|
 |[199](./algorithms/0199)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Go](./algorithms/0199/main.go)&nbsp;&nbsp;[Python](./algorithms/0199/right_side_view.py)|Medium|
