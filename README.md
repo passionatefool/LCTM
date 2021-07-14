@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |Easy|49|54|2|
-|Medium|34|47|1|
+|Medium|35|47|1|
 |Hard|1|3|0|
-|Total|84|104|3|
+|Total|85|104|3|
 
 ### Problems
 | # | Title | Solution | Difficulty |
@@ -92,6 +92,7 @@
 |[230](./algorithms/0230)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python](./algorithms/0230/kth_smallest.py)|Medium|
 |[232](./algorithms/0232)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Go](./algorithms/0232/main.go)&nbsp;&nbsp;[Python](./algorithms/0232/my_queue.py)|Easy|
 |[234](./algorithms/0234)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Go](./algorithms/0234/main.go)&nbsp;&nbsp;[Python](./algorithms/0234/is_palindrome.py)|Easy|
+|[236](./algorithms/0236)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Go](./algorithms/0236/main.go)|Medium|
 |[239](./algorithms/0239)|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Go](./algorithms/0239/main.go)|Hard|
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)&nbsp;&nbsp;[Python](./algorithms/0242/is_anagram.py)|Easy|
 |[257](./algorithms/0257)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Go](./algorithms/0257/main.go)&nbsp;&nbsp;[Python](./algorithms/0257/binary_tree_paths.py)|Easy|
