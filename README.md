@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|Easy|49|54|2|
+|Easy|50|54|2|
 |Medium|35|48|1|
 |Hard|1|3|0|
-|Total|85|105|3|
+|Total|86|105|3|
 
 ### Problems
 | # | Title | Solutions | Difficulty |
@@ -92,6 +92,7 @@
 |[230](./algorithms/0230)|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python](./algorithms/0230/kth_smallest.py)|Medium|
 |[232](./algorithms/0232)|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Go](./algorithms/0232/main.go)&nbsp;&nbsp;[Python](./algorithms/0232/my_queue.py)|Easy|
 |[234](./algorithms/0234)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Go](./algorithms/0234/main.go)&nbsp;&nbsp;[Python](./algorithms/0234/is_palindrome.py)|Easy|
+|[235](./algorithms/0235)|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Go](./algorithms/0235/main.go)|Easy|
 |[236](./algorithms/0236)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Go](./algorithms/0236/main.go)&nbsp;&nbsp;[Python](./algorithms/0236/lowest_common_ancestor.py)|Medium|
 |[239](./algorithms/0239)|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Go](./algorithms/0239/main.go)|Hard|
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)&nbsp;&nbsp;[Python](./algorithms/0242/is_anagram.py)|Easy|
