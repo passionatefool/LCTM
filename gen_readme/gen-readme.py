@@ -115,7 +115,7 @@ class Handler:
             sb.append(
                 f'|{difficulty}|{summary[Language.GO][i]}|{summary[Language.PYTHON][i]}|{summary[Language.RUST][i]}|')
 
-        sb.extend(['\n### Problems', '| # | Title | Solution | Difficulty |', '|:---:' * 4 + '|'])
+        sb.extend(['\n### Problems', '| # | Title | Solutions | Difficulty |', '|:---:' * 4 + '|'])
         for q in questions:
             solution = []
             languages = list(q.solution.keys())

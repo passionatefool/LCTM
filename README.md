@@ -9,7 +9,7 @@
 |Total|85|104|3|
 
 ### Problems
-| # | Title | Solution | Difficulty |
+| # | Title | Solutions | Difficulty |
 |:---:|:---:|:---:|:---:|
 |[1](./algorithms/0001)|[Two Sum](https://leetcode.com/problems/two-sum/)|[Go](./algorithms/0001/main.go)&nbsp;&nbsp;[Python](./algorithms/0001/two_sum.py)&nbsp;&nbsp;[Rust](./algorithms/0001/rust.rs)|Easy|
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|Medium|
