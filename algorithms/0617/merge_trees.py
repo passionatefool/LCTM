@@ -13,6 +13,7 @@ class TreeNode:
         return json.dumps(self, default=lambda o: o.__dict__,
                           sort_keys=True, indent=4)
 
+
 class Solution:
     def mergeTrees(self, root1: TreeNode, root2: TreeNode) -> TreeNode:
         if root1 is None and root2 is None:
