@@ -3,6 +3,7 @@
 import os
 from enum import Enum
 import sys
+import json
 
 import requests
 
@@ -27,21 +28,14 @@ class Language(Enum):
 
 
 class Question:
-    def __init__(self, id_, title='', title_slug='', difficulty=0):
+    def __init__(self, id_, title='', title_slug='', difficulty=''):
         self.id_ = id_
         self.title = title
+        self.title_cn = ''
         self.title_slug = title_slug
         self.difficulty = difficulty
         # key is Language enum, value is file name
         self.solution = {}
-
-    def difficulty_str(self):
-        switcher = {
-            1: 'Easy',
-            2: 'Medium',
-            3: 'Hard',
-        }
-        return switcher.get(self.difficulty, "")
 
     def __str__(self):
         return str(self.__class__) + ": " + str(self.__dict__)
@@ -54,15 +48,31 @@ class Handler:
         self.remote_questions = {}
         self.summary = {}
         for language in Language:
-            self.summary[language] = [0] * 4
+            self.summary[language] = {'EASY':0,'MEDIUM':0,'HARD':0,'TOTAL':0}
 
     def fetch_remote_questions(self):
-        qs = requests.get('https://leetcode.com/api/problems/algorithms/').json()['stat_status_pairs']
-        for q in qs:
-            stat = q['stat']
-            question = Question(stat['frontend_question_id'], stat['question__title'], stat['question__title_slug'],
-                                q['difficulty']['level'])
-            self.remote_questions[question.id_] = question
+        cache_file_path='./cache/questions.json'
+        if os.path.isfile(cache_file_path):
+            with open(cache_file_path,'r',encoding='utf8')as f:
+                json_data=json.load(f)
+                for key in json_data:
+                    q=Question(0)
+                    q.__dict__.update(json_data[key])
+                    self.remote_questions[key]=q
+                return
+        for i in range (30):
+            qs_cn = requests.post('https://leetcode-cn.com/graphql/',data=self.get_raw_data(i*100,100*(i+1)),headers={'content-type': 'application/json'}).json()['data']['problemsetQuestionList']['questions']
+            if len(qs_cn)==0:
+                break
+            for q in qs_cn:
+                question = Question(str(q['frontendQuestionId']),q['title'],q['titleSlug'],
+                                q['difficulty'])
+                question.title_cn=q['titleCn']
+                self.remote_questions[question.id_] = question
+        with open(cache_file_path, 'w', encoding='utf-8') as f:
+            json.dump(self.remote_questions,f,default=lambda obj:obj.__dict__,  ensure_ascii=False, indent=4)
+
+
 
     def parse_done_questions(self):
         for path, dir_list, file_list in os.walk(self.path):
@@ -83,13 +93,17 @@ class Handler:
 
     def merge_questions(self):
         for q in self.done_questions.values():
-            rq = self.remote_questions[q.id_]
+            rq = self.remote_questions[str(q.id_)]
             q.title = rq.title
+            q.title_cn = rq.title_cn
             q.title_slug = rq.title_slug
             q.difficulty = rq.difficulty
             for lang in q.solution:
                 self.summary[lang][q.difficulty] += 1
-                self.summary[lang][0] += 1
+                self.summary[lang]['TOTAL'] += 1
+
+    def get_raw_data(self,skip,limit):
+        return r'{"query":"\n    query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {\n  problemsetQuestionList(\n    categorySlug: $categorySlug\n    limit: $limit\n    skip: $skip\n    filters: $filters\n  ) {\n    hasMore\n    total\n    questions {\n      acRate\n      difficulty\n      freqBar\n      frontendQuestionId\n      isFavor\n      paidOnly\n      solutionNum\n      status\n      title\n      titleCn\n      titleSlug\n      topicTags {\n        name\n        nameTranslated\n        id\n        slug\n      }\n      extra {\n        hasVideoSolution\n        topCompanyTags {\n          imgUrl\n          slug\n          numSubscribed\n        }\n      }\n    }\n  }\n}\n    ","variables":{"categorySlug":"","skip":'+str(skip)+r',"limit":'+str(limit)+r',"filters":{}},"operationName":"problemsetQuestionList"}'
 
     def get_or_set_done_question(self, id_):
         if id_ in self.done_questions:
@@ -108,12 +122,9 @@ class Handler:
             f'||{Language.GO}|{Language.PYTHON}|{Language.RUST}|',
             '|:---:' * 4 + '|',
         ]
-        for i in [1, 2, 3, 0]:
-            difficulty = Question(0, difficulty=i).difficulty_str()
-            if not difficulty:
-                difficulty = "Total"
+        for i in ['EASY', 'MEDIUM', 'HARD', 'TOTAL']:
             sb.append(
-                f'|{difficulty}|{summary[Language.GO][i]}|{summary[Language.PYTHON][i]}|{summary[Language.RUST][i]}|')
+                f'|{i}|{summary[Language.GO][i]}|{summary[Language.PYTHON][i]}|{summary[Language.RUST][i]}|')
 
         sb.extend(['\n### Problems', '| # | Title | Solutions | Difficulty |', '|:---:' * 4 + '|'])
         for q in questions:
@@ -125,9 +136,9 @@ class Handler:
                 solution.append(f'[{k}]({os.path.join(id_dir, q.solution[k])})')
             data = {
                 'id': f'[{q.id_}]({id_dir})',
-                'title': f'[{q.title}](https://leetcode.com/problems/{q.title_slug}/)',
+                'title': f'[{q.title}](https://leetcode.com/problems/{q.title_slug}/)&nbsp;&nbsp;[{q.title_cn}](https://leetcode-cn.com/problems/{q.title_slug}/)',
                 'solution': ('&nbsp;' * 2).join(solution),
-                'difficulty': q.difficulty_str(),
+                'difficulty': q.difficulty,
             }
             sb.append('|{id}|{title}|{solution}|{difficulty}|'.format(**data))
         return '\n'.join(sb)
