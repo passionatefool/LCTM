@@ -3,10 +3,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|EASY|50|55|2|
-|MEDIUM|38|50|1|
+|EASY|50|56|2|
+|MEDIUM|38|51|1|
 |HARD|1|3|0|
-|TOTAL|89|108|3|
+|TOTAL|89|110|3|
 
 ### Problems
 | # | Title | Solutions | Difficulty |
@@ -102,7 +102,7 @@
 |[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)&nbsp;&nbsp;[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./algorithms/0300/length_of_lis.py)|MEDIUM|
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)&nbsp;&nbsp;[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|MEDIUM|
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)&nbsp;&nbsp;[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|EASY|
-|[347](./algorithms/0347)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)&nbsp;&nbsp;[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)|[Go](./algorithms/0347/main.go)|MEDIUM|
+|[347](./algorithms/0347)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)&nbsp;&nbsp;[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)|[Go](./algorithms/0347/main.go)&nbsp;&nbsp;[Python](./algorithms/0347/top_k_frequent.py)|MEDIUM|
 |[349](./algorithms/0349)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)&nbsp;&nbsp;[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|[Go](./algorithms/0349/main.go)&nbsp;&nbsp;[Python](./algorithms/0349/intersection.py)|EASY|
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)&nbsp;&nbsp;[摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)|[Python](./algorithms/0376/wiggle_max_length.py)|MEDIUM|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)&nbsp;&nbsp;[赎金信](https://leetcode-cn.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|EASY|
@@ -126,7 +126,7 @@
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)&nbsp;&nbsp;[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|EASY|
 |[654](./algorithms/0654)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)&nbsp;&nbsp;[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[Go](./algorithms/0654/main.go)&nbsp;&nbsp;[Python](./algorithms/0654/construct_maximum_binary_tree.py)|MEDIUM|
 |[669](./algorithms/0669)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)&nbsp;&nbsp;[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)|[Go](./algorithms/0669/main.go)&nbsp;&nbsp;[Python](./algorithms/0669/trim_bst.py)|MEDIUM|
-|[700](./algorithms/0700)|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[Go](./algorithms/0700/main.go)|EASY|
+|[700](./algorithms/0700)|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[Go](./algorithms/0700/main.go)&nbsp;&nbsp;[Python](./algorithms/0700/search_bst.py)|EASY|
 |[701](./algorithms/0701)|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[Go](./algorithms/0701/main.go)|MEDIUM|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
