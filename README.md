@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |EASY|51|56|2|
-|MEDIUM|38|51|1|
+|MEDIUM|38|54|1|
 |HARD|1|3|0|
-|TOTAL|90|110|3|
+|TOTAL|90|113|3|
 
 ### Problems
 | # | Title | Solutions | Difficulty |
@@ -30,6 +30,8 @@
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)&nbsp;&nbsp;[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|HARD|
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)&nbsp;&nbsp;[跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|MEDIUM|
+|[46](./algorithms/0046)|[Permutations](https://leetcode.com/problems/permutations/)&nbsp;&nbsp;[全排列](https://leetcode-cn.com/problems/permutations/)|[Python](./algorithms/0046/permute.py)|MEDIUM|
+|[47](./algorithms/0047)|[Permutations II](https://leetcode.com/problems/permutations-ii/)&nbsp;&nbsp;[全排列 II](https://leetcode-cn.com/problems/permutations-ii/)|[Python](./algorithms/0047/permute_unique.py)|MEDIUM|
 |[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)&nbsp;&nbsp;[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|MEDIUM|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)&nbsp;&nbsp;[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|EASY|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|MEDIUM|
@@ -46,6 +48,7 @@
 |[90](./algorithms/0090)|[Subsets II](https://leetcode.com/problems/subsets-ii/)&nbsp;&nbsp;[子集 II](https://leetcode-cn.com/problems/subsets-ii/)|[Python](./algorithms/0090/subsets_with_dup.py)|MEDIUM|
 |[92](./algorithms/0092)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)&nbsp;&nbsp;[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|[Go](./algorithms/0092/main.go)&nbsp;&nbsp;[Python](./algorithms/0092/reverse_between.py)|MEDIUM|
 |[93](./algorithms/0093)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)&nbsp;&nbsp;[复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Python](./algorithms/0093/restore_ip_addresses.py)|MEDIUM|
+|[95](./algorithms/0095)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)&nbsp;&nbsp;[不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)|[Python](./algorithms/0095/generate_trees.py)|MEDIUM|
 |[98](./algorithms/0098)|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)&nbsp;&nbsp;[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](./algorithms/0098/main.go)&nbsp;&nbsp;[Python](./algorithms/0098/is_valid_bst.py)|MEDIUM|
 |[100](./algorithms/0100)|[Same Tree](https://leetcode.com/problems/same-tree/)&nbsp;&nbsp;[相同的树](https://leetcode-cn.com/problems/same-tree/)|[Go](./algorithms/0100/main.go)&nbsp;&nbsp;[Python](./algorithms/0100/is_same_tree.py)|EASY|
 |[101](./algorithms/0101)|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)&nbsp;&nbsp;[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)|[Go](./algorithms/0101/main.go)&nbsp;&nbsp;[Python](./algorithms/0101/is_symmetric.py)|EASY|
