@@ -1,5 +1,10 @@
 # LCTM
 
+### Thanks
+* [leetcode 经典题目的解析](https://github.com/azl397985856/leetcode) 
+* [LeetCode 刷题攻略](https://github.com/youngyangyang04/leetcode-master) 
+* [算法模板](https://github.com/greyireland/algorithm-pattern) 
+
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
@@ -7,6 +12,7 @@
 |MEDIUM|38|51|1|
 |HARD|1|3|0|
 |TOTAL|90|110|3|
+
 
 ### Problems
 | # | Title | Solutions | Difficulty |
@@ -134,3 +140,4 @@
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
+
