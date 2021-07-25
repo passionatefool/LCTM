@@ -4,8 +4,13 @@ import os
 from enum import Enum
 import sys
 import json
+from absl import flags
+from absl import app
+
+FLAGS = flags.FLAGS
 
 import requests
+from jinja2 import Template
 
 
 class Language(Enum):
@@ -42,8 +47,10 @@ class Question:
 
 
 class Handler:
-    def __init__(self, path):
+    def __init__(self, path, cache_file_path, template_path):
         self.path = path
+        self.cache_file_path= cache_file_path
+        self.template_path=template_path
         self.done_questions = {}
         self.remote_questions = {}
         self.summary = {}
@@ -51,9 +58,8 @@ class Handler:
             self.summary[language] = {'EASY':0,'MEDIUM':0,'HARD':0,'TOTAL':0}
 
     def fetch_remote_questions(self):
-        cache_file_path='./cache/questions.json'
-        if os.path.isfile(cache_file_path):
-            with open(cache_file_path,'r',encoding='utf8')as f:
+        if os.path.isfile(self.cache_file_path):
+            with open(self.cache_file_path,'r',encoding='utf8')as f:
                 json_data=json.load(f)
                 for key in json_data:
                     q=Question(0)
@@ -69,7 +75,7 @@ class Handler:
                                 q['difficulty'])
                 question.title_cn=q['titleCn']
                 self.remote_questions[question.id_] = question
-        with open(cache_file_path, 'w', encoding='utf-8') as f:
+        with open(self.cache_file_path, 'w', encoding='utf-8') as f:
             json.dump(self.remote_questions,f,default=lambda obj:obj.__dict__,  ensure_ascii=False, indent=4)
 
 
@@ -116,36 +122,17 @@ class Handler:
         questions = list(self.done_questions.values())
         questions.sort(key=lambda x: x.id_)
         summary = self.summary
-        sb = [
-            '# LCTM\n',
-            '### Summary',
-            f'||{Language.GO}|{Language.PYTHON}|{Language.RUST}|',
-            '|:---:' * 4 + '|',
-        ]
-        for i in ['EASY', 'MEDIUM', 'HARD', 'TOTAL']:
-            sb.append(
-                f'|{i}|{summary[Language.GO][i]}|{summary[Language.PYTHON][i]}|{summary[Language.RUST][i]}|')
+        with open(self.template_path) as file_:
+            template = Template(file_.read())
+            template.globals['Language'] = Language
+            return template.render(summary=summary,questions=questions,path=self.path)
 
-        sb.extend(['\n### Problems', '| # | Title | Solutions | Difficulty |', '|:---:' * 4 + '|'])
-        for q in questions:
-            solution = []
-            languages = list(q.solution.keys())
-            languages.sort(key=lambda x: x.value)
-            id_dir = os.path.join(self.path, '{:04d}'.format(q.id_))
-            for k in languages:
-                solution.append(f'[{k}]({os.path.join(id_dir, q.solution[k])})')
-            data = {
-                'id': f'[{q.id_}]({id_dir})',
-                'title': f'[{q.title}](https://leetcode.com/problems/{q.title_slug}/)&nbsp;&nbsp;[{q.title_cn}](https://leetcode-cn.com/problems/{q.title_slug}/)',
-                'solution': ('&nbsp;' * 2).join(solution),
-                'difficulty': q.difficulty,
-            }
-            sb.append('|{id}|{title}|{solution}|{difficulty}|'.format(**data))
-        return '\n'.join(sb)
+flags.DEFINE_string('path', None, 'algorithms dir path')
+flags.DEFINE_string('cache', None, 'cache file path')
+flags.DEFINE_string('tmpl', None, 'tmpl file path')
 
-
-def main():
-    h = Handler(sys.argv[1])
+def main(argv):
+    h = Handler(FLAGS.path, FLAGS.cache, FLAGS.tmpl)
     h.fetch_remote_questions()
     h.parse_done_questions()
     h.merge_questions()
@@ -153,4 +140,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+  app.run(main)

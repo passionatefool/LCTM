@@ -1,0 +1,26 @@
+# LCTM
+
+### Thanks
+* [leetcode 经典题目的解析](https://github.com/azl397985856/leetcode) 
+* [LeetCode 刷题攻略](https://github.com/youngyangyang04/leetcode-master) 
+* [算法模板](https://github.com/greyireland/algorithm-pattern) 
+
+### Summary
+||Go|Python|Rust|
+|:---:|:---:|:---:|:---:|
+{% for difficulty in ['EASY', 'MEDIUM', 'HARD', 'TOTAL'] -%}
+|{{difficulty}}|{{summary[Language.GO][difficulty]}}|{{summary[Language.PYTHON][difficulty]}}|{{summary[Language.RUST][difficulty]}}|
+{% endfor %}
+
+### Problems
+| # | Title | Solutions | Difficulty |
+|:---:|:---:|:---:|:---:|
+{% for q in questions -%}
+	{% set id_dir = '{:04d}'.format(q.id_) -%}
+	{% set solutions = [] -%}
+	{% for k in q.solution|sort(attribute='value') -%}
+		{{ solutions.append('[{}]({}/{}/{})'.format(k, path, id_dir, q.solution[k])) or '' -}}
+	{% endfor -%}
+
+	|[{{q.id_}}]({{path}}/{{id_dir}})|[{{q.title}}](https://leetcode.com/problems/{{q.title_slug}}/)&nbsp;&nbsp;[{{q.title_cn}}](https://leetcode-cn.com/problems/{{q.title_slug}}/)|{{solutions|join("&nbsp;&nbsp;")}}|{{q.difficulty}}|
+{% endfor %}
