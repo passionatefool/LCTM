@@ -4,9 +4,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |EASY|51|56|2|
-|MEDIUM|38|54|1|
+|MEDIUM|39|54|1|
 |HARD|1|3|0|
-|TOTAL|90|113|3|
+|TOTAL|91|113|3|
 
 ### Problems
 | # | Title | Solutions | Difficulty |
@@ -123,6 +123,7 @@
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)&nbsp;&nbsp;[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|MEDIUM|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)&nbsp;&nbsp;[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|MEDIUM|
 |[530](./algorithms/0530)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)&nbsp;&nbsp;[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|[Go](./algorithms/0530/main.go)|EASY|
+|[538](./algorithms/0538)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)&nbsp;&nbsp;[把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)|[Go](./algorithms/0538/main.go)|MEDIUM|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)&nbsp;&nbsp;[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|EASY|
 |[559](./algorithms/0559)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)&nbsp;&nbsp;[N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|[Go](./algorithms/0559/main.go)&nbsp;&nbsp;[Python](./algorithms/0559/max_depth.py)|EASY|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)&nbsp;&nbsp;[分糖果](https://leetcode-cn.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|EASY|
