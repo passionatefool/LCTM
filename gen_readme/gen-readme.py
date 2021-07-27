@@ -118,25 +118,28 @@ class Handler:
         self.done_questions[id_] = question
         return question
 
-    def render(self) -> str:
+    def output(self, output_file_path):
         questions = list(self.done_questions.values())
         questions.sort(key=lambda x: x.id_)
         summary = self.summary
         with open(self.template_path) as file_:
             template = Template(file_.read())
             template.globals['Language'] = Language
-            return template.render(summary=summary,questions=questions,path=self.path)
+            result = template.render(summary=summary,questions=questions,path=self.path)
+            with open(output_file_path, 'w', encoding='utf-8') as f:
+                f.write(result)
 
 flags.DEFINE_string('path', None, 'algorithms dir path')
 flags.DEFINE_string('cache', None, 'cache file path')
 flags.DEFINE_string('tmpl', None, 'tmpl file path')
+flags.DEFINE_string('output', None, 'output file path')
 
 def main(argv):
     h = Handler(FLAGS.path, FLAGS.cache, FLAGS.tmpl)
     h.fetch_remote_questions()
     h.parse_done_questions()
     h.merge_questions()
-    print(h.render())
+    h.output(FLAGS.output)
 
 
 if __name__ == '__main__':
