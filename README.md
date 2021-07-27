@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
-|EASY|52|56|2|
-|MEDIUM|39|55|1|
+|EASY|52|57|2|
+|MEDIUM|40|55|1|
 |HARD|1|3|0|
-|TOTAL|92|114|3|
+|TOTAL|93|115|3|
 
 
 ### Problems
@@ -45,7 +45,7 @@
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)&nbsp;&nbsp;[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|MEDIUM|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)&nbsp;&nbsp;[加一](https://leetcode-cn.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|EASY|
 |[70](./algorithms/0070)|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)&nbsp;&nbsp;[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[Python](./algorithms/0070/climb_stairs.py)|EASY|
-|[77](./algorithms/0077)|[Combinations](https://leetcode.com/problems/combinations/)&nbsp;&nbsp;[组合](https://leetcode-cn.com/problems/combinations/)|[Python](./algorithms/0077/combine.py)|MEDIUM|
+|[77](./algorithms/0077)|[Combinations](https://leetcode.com/problems/combinations/)&nbsp;&nbsp;[组合](https://leetcode-cn.com/problems/combinations/)|[Go](./algorithms/0077/main.go)&nbsp;&nbsp;[Python](./algorithms/0077/combine.py)|MEDIUM|
 |[78](./algorithms/0078)|[Subsets](https://leetcode.com/problems/subsets/)&nbsp;&nbsp;[子集](https://leetcode-cn.com/problems/subsets/)|[Go](./algorithms/0078/main.go)&nbsp;&nbsp;[Python](./algorithms/0078/subsets.py)|MEDIUM|
 |[82](./algorithms/0082)|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)&nbsp;&nbsp;[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|[Go](./algorithms/0082/main.go)&nbsp;&nbsp;[Python](./algorithms/0082/delete_duplicates.py)|MEDIUM|
 |[83](./algorithms/0083)|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)&nbsp;&nbsp;[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|[Go](./algorithms/0083/main.go)&nbsp;&nbsp;[Python](./algorithms/0083/delete_duplicates.py)|EASY|
@@ -124,7 +124,7 @@
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)&nbsp;&nbsp;[重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|EASY|
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)&nbsp;&nbsp;[LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|HARD|
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)&nbsp;&nbsp;[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)|[Python](./algorithms/0491/find_subsequences.py)|MEDIUM|
-|[501](./algorithms/0501)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)|[Go](./algorithms/0501/main.go)|EASY|
+|[501](./algorithms/0501)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)|[Go](./algorithms/0501/main.go)&nbsp;&nbsp;[Python](./algorithms/0501/find_mode.py)|EASY|
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)&nbsp;&nbsp;[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|[Python](./algorithms/0509/fib.py)|EASY|
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)&nbsp;&nbsp;[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|MEDIUM|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)&nbsp;&nbsp;[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|MEDIUM|
