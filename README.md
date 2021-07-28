@@ -9,9 +9,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |EASY|52|57|2|
-|MEDIUM|40|55|1|
+|MEDIUM|41|59|1|
 |HARD|1|3|0|
-|TOTAL|93|115|3|
+|TOTAL|94|119|3|
 
 
 ### Problems
@@ -43,6 +43,9 @@
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|MEDIUM|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)&nbsp;&nbsp;[螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|MEDIUM|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)&nbsp;&nbsp;[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|MEDIUM|
+|[62](./algorithms/0062)|[Unique Paths](https://leetcode.com/problems/unique-paths/)&nbsp;&nbsp;[不同路径](https://leetcode-cn.com/problems/unique-paths/)|[Python](./algorithms/0062/unique_paths.py)|MEDIUM|
+|[63](./algorithms/0063)|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)&nbsp;&nbsp;[不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)|[Python](./algorithms/0063/unique_paths_with_obstacles.py)|MEDIUM|
+|[64](./algorithms/0064)|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)&nbsp;&nbsp;[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)|[Python](./algorithms/0064/min_path_sum.py)|MEDIUM|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)&nbsp;&nbsp;[加一](https://leetcode-cn.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|EASY|
 |[70](./algorithms/0070)|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)&nbsp;&nbsp;[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[Python](./algorithms/0070/climb_stairs.py)|EASY|
 |[77](./algorithms/0077)|[Combinations](https://leetcode.com/problems/combinations/)&nbsp;&nbsp;[组合](https://leetcode-cn.com/problems/combinations/)|[Go](./algorithms/0077/main.go)&nbsp;&nbsp;[Python](./algorithms/0077/combine.py)|MEDIUM|
@@ -71,6 +74,7 @@
 |[113](./algorithms/0113)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)&nbsp;&nbsp;[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|[Go](./algorithms/0113/main.go)&nbsp;&nbsp;[Python](./algorithms/0113/path_sum.py)|MEDIUM|
 |[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)&nbsp;&nbsp;[Python](./algorithms/0116/connect.py)|MEDIUM|
 |[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)&nbsp;&nbsp;[Python](./algorithms/0117/connect.py)|MEDIUM|
+|[120](./algorithms/0120)|[Triangle](https://leetcode.com/problems/triangle/)&nbsp;&nbsp;[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|[Python](./algorithms/0120/minimum_total.py)|MEDIUM|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)&nbsp;&nbsp;[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|EASY|
 |[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)&nbsp;&nbsp;[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python](./algorithms/0122/max_profit.py)|EASY|
 |[124](./algorithms/0124)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)&nbsp;&nbsp;[二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|[Python](./algorithms/0124/max_path_sum.py)|HARD|
@@ -94,7 +98,7 @@
 |[203](./algorithms/0203)|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)&nbsp;&nbsp;[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|[Go](./algorithms/0203/main.go)&nbsp;&nbsp;[Python](./algorithms/0203/remove_elements.py)|EASY|
 |[206](./algorithms/0206)|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)&nbsp;&nbsp;[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|[Go](./algorithms/0206/main.go)&nbsp;&nbsp;[Python](./algorithms/0206/reverse_list.py)|EASY|
 |[209](./algorithms/0209)|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)&nbsp;&nbsp;[长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)|[Go](./algorithms/0209/main.go)&nbsp;&nbsp;[Python](./algorithms/0209/min_sub_array_len.py)|MEDIUM|
-|[216](./algorithms/0216)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)&nbsp;&nbsp;[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)|[Python](./algorithms/0216/combination_sum3.py)|MEDIUM|
+|[216](./algorithms/0216)|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)&nbsp;&nbsp;[组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii/)|[Go](./algorithms/0216/main.go)&nbsp;&nbsp;[Python](./algorithms/0216/combination_sum3.py)|MEDIUM|
 |[219](./algorithms/0219)|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)&nbsp;&nbsp;[存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)|[Python](./algorithms/0219/contains_nearby_duplicate.py)|EASY|
 |[222](./algorithms/0222)|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)&nbsp;&nbsp;[完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)|[Go](./algorithms/0222/main.go)&nbsp;&nbsp;[Python](./algorithms/0222/count_nodes.py)|MEDIUM|
 |[225](./algorithms/0225)|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)&nbsp;&nbsp;[用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/)|[Go](./algorithms/0225/main.go)&nbsp;&nbsp;[Python](./algorithms/0225/my_stack.py)|EASY|
