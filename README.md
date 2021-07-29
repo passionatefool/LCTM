@@ -9,9 +9,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |EASY|52|57|2|
-|MEDIUM|41|59|1|
-|HARD|1|3|0|
-|TOTAL|94|119|3|
+|MEDIUM|42|59|1|
+|HARD|1|4|0|
+|TOTAL|95|120|3|
 
 
 ### Problems
@@ -22,7 +22,7 @@
 |[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|EASY|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
-|[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)&nbsp;&nbsp;[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|[Python](./algorithms/0017/letter_combinations.py)|MEDIUM|
+|[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)&nbsp;&nbsp;[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|[Go](./algorithms/0017/main.go)&nbsp;&nbsp;[Python](./algorithms/0017/letter_combinations.py)|MEDIUM|
 |[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)&nbsp;&nbsp;[四数之和](https://leetcode-cn.com/problems/4sum/)|[Go](./algorithms/0018/main.go)&nbsp;&nbsp;[Python](./algorithms/0018/four_sum.py)|MEDIUM|
 |[19](./algorithms/0019)|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)&nbsp;&nbsp;[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[Go](./algorithms/0019/main.go)&nbsp;&nbsp;[Python](./algorithms/0019/remove_nth_from_end.py)|MEDIUM|
 |[20](./algorithms/0020)|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)&nbsp;&nbsp;[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|[Go](./algorithms/0020/main.go)&nbsp;&nbsp;[Python](./algorithms/0020/is_valid.py)&nbsp;&nbsp;[Rust](./algorithms/0020/rust.rs)|EASY|
@@ -48,6 +48,7 @@
 |[64](./algorithms/0064)|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)&nbsp;&nbsp;[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)|[Python](./algorithms/0064/min_path_sum.py)|MEDIUM|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)&nbsp;&nbsp;[加一](https://leetcode-cn.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|EASY|
 |[70](./algorithms/0070)|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)&nbsp;&nbsp;[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[Python](./algorithms/0070/climb_stairs.py)|EASY|
+|[76](./algorithms/0076)|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)&nbsp;&nbsp;[最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)|[Python](./algorithms/0076/min_window.py)|HARD|
 |[77](./algorithms/0077)|[Combinations](https://leetcode.com/problems/combinations/)&nbsp;&nbsp;[组合](https://leetcode-cn.com/problems/combinations/)|[Go](./algorithms/0077/main.go)&nbsp;&nbsp;[Python](./algorithms/0077/combine.py)|MEDIUM|
 |[78](./algorithms/0078)|[Subsets](https://leetcode.com/problems/subsets/)&nbsp;&nbsp;[子集](https://leetcode-cn.com/problems/subsets/)|[Go](./algorithms/0078/main.go)&nbsp;&nbsp;[Python](./algorithms/0078/subsets.py)|MEDIUM|
 |[82](./algorithms/0082)|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)&nbsp;&nbsp;[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|[Go](./algorithms/0082/main.go)&nbsp;&nbsp;[Python](./algorithms/0082/delete_duplicates.py)|MEDIUM|
