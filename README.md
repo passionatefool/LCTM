@@ -9,9 +9,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |EASY|52|57|2|
-|MEDIUM|43|60|1|
+|MEDIUM|44|61|1|
 |HARD|1|4|0|
-|TOTAL|96|121|3|
+|TOTAL|97|122|3|
 
 
 ### Problems
@@ -33,7 +33,7 @@
 |[28](./algorithms/0028)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)&nbsp;&nbsp;[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[Go](./algorithms/0028/main.go)&nbsp;&nbsp;[Python](./algorithms/0028/str_str.py)|EASY|
 |[35](./algorithms/0035)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)&nbsp;&nbsp;[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|[Go](./algorithms/0035/main.go)&nbsp;&nbsp;[Python](./algorithms/0035/search_insert.py)|EASY|
 |[39](./algorithms/0039)|[Combination Sum](https://leetcode.com/problems/combination-sum/)&nbsp;&nbsp;[组合总和](https://leetcode-cn.com/problems/combination-sum/)|[Go](./algorithms/0039/main.go)&nbsp;&nbsp;[Python](./algorithms/0039/combination_sum.py)|MEDIUM|
-|[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
+|[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Go](./algorithms/0040/main.go)&nbsp;&nbsp;[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)&nbsp;&nbsp;[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|HARD|
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)&nbsp;&nbsp;[跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|MEDIUM|
 |[46](./algorithms/0046)|[Permutations](https://leetcode.com/problems/permutations/)&nbsp;&nbsp;[全排列](https://leetcode-cn.com/problems/permutations/)|[Python](./algorithms/0046/permute.py)|MEDIUM|
@@ -138,6 +138,7 @@
 |[538](./algorithms/0538)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)&nbsp;&nbsp;[把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)|[Go](./algorithms/0538/main.go)&nbsp;&nbsp;[Python](./algorithms/0538/convert_bst.py)|MEDIUM|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)&nbsp;&nbsp;[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|EASY|
 |[559](./algorithms/0559)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)&nbsp;&nbsp;[N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|[Go](./algorithms/0559/main.go)&nbsp;&nbsp;[Python](./algorithms/0559/max_depth.py)|EASY|
+|[567](./algorithms/0567)|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)&nbsp;&nbsp;[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Python](./algorithms/0567/check_inclusion.py)|MEDIUM|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)&nbsp;&nbsp;[分糖果](https://leetcode-cn.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|EASY|
 |[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)&nbsp;&nbsp;[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)|[Go](./algorithms/0617/main.go)&nbsp;&nbsp;[Python](./algorithms/0617/merge_trees.py)|EASY|
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)&nbsp;&nbsp;[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|EASY|
