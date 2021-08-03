@@ -9,9 +9,9 @@
 ||Go|Python|Rust|
 |:---:|:---:|:---:|:---:|
 |EASY|52|57|2|
-|MEDIUM|44|61|1|
+|MEDIUM|45|62|1|
 |HARD|1|4|0|
-|TOTAL|97|122|3|
+|TOTAL|98|123|3|
 
 
 ### Problems
@@ -19,7 +19,7 @@
 |:---:|:---:|:---:|:---:|
 |[1](./algorithms/0001)|[Two Sum](https://leetcode.com/problems/two-sum/)&nbsp;&nbsp;[两数之和](https://leetcode-cn.com/problems/two-sum/)|[Go](./algorithms/0001/main.go)&nbsp;&nbsp;[Python](./algorithms/0001/two_sum.py)&nbsp;&nbsp;[Rust](./algorithms/0001/rust.rs)|EASY|
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
-|[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
+|[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|EASY|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)&nbsp;&nbsp;[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|[Go](./algorithms/0017/main.go)&nbsp;&nbsp;[Python](./algorithms/0017/letter_combinations.py)|MEDIUM|
@@ -81,7 +81,7 @@
 |[124](./algorithms/0124)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)&nbsp;&nbsp;[二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|[Python](./algorithms/0124/max_path_sum.py)|HARD|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)&nbsp;&nbsp;[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|EASY|
 |[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)&nbsp;&nbsp;[最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|MEDIUM|
-|[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)&nbsp;&nbsp;[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)|[Python](./algorithms/0131/partition.py)|MEDIUM|
+|[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)&nbsp;&nbsp;[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)|[Go](./algorithms/0131/main.go)&nbsp;&nbsp;[Python](./algorithms/0131/partition.py)|MEDIUM|
 |[136](./algorithms/0136)|[Single Number](https://leetcode.com/problems/single-number/)&nbsp;&nbsp;[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|[Go](./algorithms/0136/main.go)&nbsp;&nbsp;[Python](./algorithms/0136/single_number.py)|EASY|
 |[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)&nbsp;&nbsp;[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)&nbsp;&nbsp;[Python](./algorithms/0141/has_cycle.py)|EASY|
 |[142](./algorithms/0142)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)&nbsp;&nbsp;[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|[Go](./algorithms/0142/main.go)|MEDIUM|
