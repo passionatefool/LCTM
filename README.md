@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|52|57|2|1|
-|MEDIUM|46|63|1|0|
+|MEDIUM|46|64|1|0|
 |HARD|1|4|0|0|
-|TOTAL|99|124|3|1|
+|TOTAL|99|125|3|1|
 
 
 ### Problems
@@ -151,3 +151,4 @@
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
+|[1438](./algorithms/1438)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)&nbsp;&nbsp;[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Python](./algorithms/1438/longest_subarray.py)|MEDIUM|
