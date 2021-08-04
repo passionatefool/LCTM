@@ -6,12 +6,12 @@
 * [算法模板](https://github.com/greyireland/algorithm-pattern) 
 
 ### Summary
-||Go|Python|Rust|
-|:---:|:---:|:---:|:---:|
-|EASY|52|57|2|
-|MEDIUM|46|63|1|
-|HARD|1|4|0|
-|TOTAL|99|124|3|
+||Go|Python|Rust|Java|
+|:---:|:---:|:---:|:---:|:---:|
+|EASY|52|57|2|1|
+|MEDIUM|46|63|1|0|
+|HARD|1|4|0|0|
+|TOTAL|99|124|3|1|
 
 
 ### Problems
