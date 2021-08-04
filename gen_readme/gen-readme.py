@@ -17,6 +17,7 @@ class Language(Enum):
     PYTHON = 'Python'
     GO = 'Go'
     RUST = 'Rust'
+    JAVA = "Java"
 
     def suffix(self) -> str:
         r = ""
@@ -26,6 +27,8 @@ class Language(Enum):
             r = '.go'
         elif self == self.__class__.RUST:
             r = '.rs'
+        elif self == self.__class__.JAVA:
+            r = ".java"
         return r
 
     def __str__(self):
@@ -96,6 +99,9 @@ class Handler:
                 elif file_name.endswith(Language.RUST.suffix()):
                     q = self.get_or_set_done_question(id_)
                     q.solution[Language.RUST] = file_name
+                elif file_name.endswith(Language.JAVA.suffix()):
+                    q = self.get_or_set_done_question(id_)
+                    q.solution[Language.JAVA] = file_name
 
     def merge_questions(self):
         for q in self.done_questions.values():
