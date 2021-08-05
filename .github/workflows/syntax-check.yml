@@ -1,0 +1,29 @@
+name: syntax check
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-go@v2
+      - name: test go
+        run: |
+          go mod init github.com/passionatefool/LCTM
+          go mod tidy
+          go test ./algorithms/...
+
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: test python
+        run: find ./algorithms -name "*.py" | tr '\n' '\0' | xargs -0 -n1 python
+
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '15'
+      - name: test java
+        run: find ./algorithms -name "*.java" | tr '\n' '\0' | xargs -0 -n1 javac
