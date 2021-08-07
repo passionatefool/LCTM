@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|52|58|2|1|
-|MEDIUM|48|64|1|0|
+|MEDIUM|50|65|1|1|
 |HARD|1|4|0|0|
-|TOTAL|101|126|3|1|
+|TOTAL|103|127|3|2|
 
 
 ### Problems
@@ -21,7 +21,7 @@
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
 |[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|EASY|
-|[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
+|[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Java](./algorithms/0015/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)&nbsp;&nbsp;[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|[Go](./algorithms/0017/main.go)&nbsp;&nbsp;[Python](./algorithms/0017/letter_combinations.py)|MEDIUM|
 |[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)&nbsp;&nbsp;[四数之和](https://leetcode-cn.com/problems/4sum/)|[Go](./algorithms/0018/main.go)&nbsp;&nbsp;[Python](./algorithms/0018/four_sum.py)|MEDIUM|
 |[19](./algorithms/0019)|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)&nbsp;&nbsp;[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[Go](./algorithms/0019/main.go)&nbsp;&nbsp;[Python](./algorithms/0019/remove_nth_from_end.py)|MEDIUM|
@@ -36,8 +36,8 @@
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Go](./algorithms/0040/main.go)&nbsp;&nbsp;[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)&nbsp;&nbsp;[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|HARD|
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)&nbsp;&nbsp;[跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|MEDIUM|
-|[46](./algorithms/0046)|[Permutations](https://leetcode.com/problems/permutations/)&nbsp;&nbsp;[全排列](https://leetcode-cn.com/problems/permutations/)|[Python](./algorithms/0046/permute.py)|MEDIUM|
-|[47](./algorithms/0047)|[Permutations II](https://leetcode.com/problems/permutations-ii/)&nbsp;&nbsp;[全排列 II](https://leetcode-cn.com/problems/permutations-ii/)|[Python](./algorithms/0047/permute_unique.py)|MEDIUM|
+|[46](./algorithms/0046)|[Permutations](https://leetcode.com/problems/permutations/)&nbsp;&nbsp;[全排列](https://leetcode-cn.com/problems/permutations/)|[Go](./algorithms/0046/main.go)&nbsp;&nbsp;[Python](./algorithms/0046/permute.py)|MEDIUM|
+|[47](./algorithms/0047)|[Permutations II](https://leetcode.com/problems/permutations-ii/)&nbsp;&nbsp;[全排列 II](https://leetcode-cn.com/problems/permutations-ii/)|[Go](./algorithms/0047/main.go)&nbsp;&nbsp;[Python](./algorithms/0047/permute_unique.py)|MEDIUM|
 |[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)&nbsp;&nbsp;[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|MEDIUM|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)&nbsp;&nbsp;[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|EASY|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|MEDIUM|
@@ -89,7 +89,7 @@
 |[144](./algorithms/0144)|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)&nbsp;&nbsp;[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)|[Go](./algorithms/0144/main.go)&nbsp;&nbsp;[Python](./algorithms/0144/preorder_traversal.py)|EASY|
 |[145](./algorithms/0145)|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)&nbsp;&nbsp;[二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)|[Go](./algorithms/0145/main.go)&nbsp;&nbsp;[Python](./algorithms/0145/postorder_traversal.py)|EASY|
 |[146](./algorithms/0146)|[LRU Cache](https://leetcode.com/problems/lru-cache/)&nbsp;&nbsp;[LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)|[Python](./algorithms/0146/lru.py)|MEDIUM|
-|[148](./algorithms/0148)|[Sort List](https://leetcode.com/problems/sort-list/)&nbsp;&nbsp;[排序链表](https://leetcode-cn.com/problems/sort-list/)|[Go](./algorithms/0148/main.go)|MEDIUM|
+|[148](./algorithms/0148)|[Sort List](https://leetcode.com/problems/sort-list/)&nbsp;&nbsp;[排序链表](https://leetcode-cn.com/problems/sort-list/)|[Go](./algorithms/0148/main.go)&nbsp;&nbsp;[Python](./algorithms/0148/sort_list.py)|MEDIUM|
 |[150](./algorithms/0150)|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)&nbsp;&nbsp;[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)|[Go](./algorithms/0150/main.go)&nbsp;&nbsp;[Python](./algorithms/0150/eval_rpn.py)|MEDIUM|
 |[151](./algorithms/0151)|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)&nbsp;&nbsp;[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)|[Go](./algorithms/0151/main.go)&nbsp;&nbsp;[Python](./algorithms/0151/reverse_words.py)|MEDIUM|
 |[155](./algorithms/0155)|[Min Stack](https://leetcode.com/problems/min-stack/)&nbsp;&nbsp;[最小栈](https://leetcode-cn.com/problems/min-stack/)|[Go](./algorithms/0155/main.go)&nbsp;&nbsp;[Python](./algorithms/0155/min_stack.py)|EASY|
