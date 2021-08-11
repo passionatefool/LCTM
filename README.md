@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|53|59|2|3|
-|MEDIUM|50|65|1|1|
+|MEDIUM|51|66|1|1|
 |HARD|1|4|0|0|
-|TOTAL|104|128|3|4|
+|TOTAL|105|129|3|4|
 
 
 ### Problems
@@ -120,7 +120,7 @@
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)&nbsp;&nbsp;[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|EASY|
 |[347](./algorithms/0347)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)&nbsp;&nbsp;[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)|[Go](./algorithms/0347/main.go)&nbsp;&nbsp;[Python](./algorithms/0347/top_k_frequent.py)|MEDIUM|
 |[349](./algorithms/0349)|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)&nbsp;&nbsp;[两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)|[Go](./algorithms/0349/main.go)&nbsp;&nbsp;[Python](./algorithms/0349/intersection.py)|EASY|
-|[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)&nbsp;&nbsp;[摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)|[Python](./algorithms/0376/wiggle_max_length.py)|MEDIUM|
+|[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)&nbsp;&nbsp;[摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)|[Go](./algorithms/0376/main.go)&nbsp;&nbsp;[Python](./algorithms/0376/wiggle_max_length.py)|MEDIUM|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)&nbsp;&nbsp;[赎金信](https://leetcode-cn.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|EASY|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)&nbsp;&nbsp;[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|EASY|
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)&nbsp;&nbsp;[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)&nbsp;&nbsp;[Python](./algorithms/0429/level_order.py)|MEDIUM|
@@ -150,6 +150,7 @@
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
+|[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
 |[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
