@@ -9,16 +9,16 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|54|59|2|3|
-|MEDIUM|51|67|1|1|
+|MEDIUM|52|68|1|2|
 |HARD|1|4|0|0|
-|TOTAL|106|130|3|4|
+|TOTAL|107|131|3|5|
 
 
 ### Problems
 | # | Title | Solutions | Difficulty |
 |:---:|:---:|:---:|:---:|
 |[1](./algorithms/0001)|[Two Sum](https://leetcode.com/problems/two-sum/)&nbsp;&nbsp;[两数之和](https://leetcode-cn.com/problems/two-sum/)|[Go](./algorithms/0001/main.go)&nbsp;&nbsp;[Java](./algorithms/0001/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0001/two_sum.py)&nbsp;&nbsp;[Rust](./algorithms/0001/rust.rs)|EASY|
-|[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
+|[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Java](./algorithms/0002/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
 |[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|EASY|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Java](./algorithms/0015/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
@@ -40,7 +40,7 @@
 |[47](./algorithms/0047)|[Permutations II](https://leetcode.com/problems/permutations-ii/)&nbsp;&nbsp;[全排列 II](https://leetcode-cn.com/problems/permutations-ii/)|[Go](./algorithms/0047/main.go)&nbsp;&nbsp;[Python](./algorithms/0047/permute_unique.py)|MEDIUM|
 |[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)&nbsp;&nbsp;[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|MEDIUM|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)&nbsp;&nbsp;[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|EASY|
-|[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Python](./algorithms/0055/can_jump.py)|MEDIUM|
+|[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Go](./algorithms/0055/main.go)&nbsp;&nbsp;[Python](./algorithms/0055/can_jump.py)|MEDIUM|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)&nbsp;&nbsp;[螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|MEDIUM|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)&nbsp;&nbsp;[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|MEDIUM|
 |[62](./algorithms/0062)|[Unique Paths](https://leetcode.com/problems/unique-paths/)&nbsp;&nbsp;[不同路径](https://leetcode-cn.com/problems/unique-paths/)|[Python](./algorithms/0062/unique_paths.py)|MEDIUM|
@@ -151,6 +151,7 @@
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
+|[912](./algorithms/0912)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)&nbsp;&nbsp;[排序数组](https://leetcode-cn.com/problems/sort-an-array/)|[Python](./algorithms/0912/sort_array.py)|MEDIUM|
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
