@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|54|59|2|3|
-|MEDIUM|52|68|1|2|
+|MEDIUM|53|69|1|2|
 |HARD|1|4|0|0|
-|TOTAL|107|131|3|5|
+|TOTAL|108|132|3|5|
 
 
 ### Problems
@@ -31,11 +31,12 @@
 |[26](./algorithms/0026)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)&nbsp;&nbsp;[删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[Go](./algorithms/0026/main.go)&nbsp;&nbsp;[Python](./algorithms/0026/remove_duplicates.py)|EASY|
 |[27](./algorithms/0027)|[Remove Element](https://leetcode.com/problems/remove-element/)&nbsp;&nbsp;[移除元素](https://leetcode-cn.com/problems/remove-element/)|[Go](./algorithms/0027/main.go)&nbsp;&nbsp;[Python](./algorithms/0027/remove_element.py)|EASY|
 |[28](./algorithms/0028)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)&nbsp;&nbsp;[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[Go](./algorithms/0028/main.go)&nbsp;&nbsp;[Python](./algorithms/0028/str_str.py)|EASY|
+|[29](./algorithms/0029)|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)&nbsp;&nbsp;[两数相除](https://leetcode-cn.com/problems/divide-two-integers/)|[Python](./algorithms/0029/divide.py)|MEDIUM|
 |[35](./algorithms/0035)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)&nbsp;&nbsp;[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|[Go](./algorithms/0035/main.go)&nbsp;&nbsp;[Python](./algorithms/0035/search_insert.py)|EASY|
 |[39](./algorithms/0039)|[Combination Sum](https://leetcode.com/problems/combination-sum/)&nbsp;&nbsp;[组合总和](https://leetcode-cn.com/problems/combination-sum/)|[Go](./algorithms/0039/main.go)&nbsp;&nbsp;[Python](./algorithms/0039/combination_sum.py)|MEDIUM|
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Go](./algorithms/0040/main.go)&nbsp;&nbsp;[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)&nbsp;&nbsp;[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|HARD|
-|[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)&nbsp;&nbsp;[跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Python](./algorithms/0045/jump.py)|MEDIUM|
+|[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)&nbsp;&nbsp;[跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Go](./algorithms/0045/main.go)&nbsp;&nbsp;[Python](./algorithms/0045/jump.py)|MEDIUM|
 |[46](./algorithms/0046)|[Permutations](https://leetcode.com/problems/permutations/)&nbsp;&nbsp;[全排列](https://leetcode-cn.com/problems/permutations/)|[Go](./algorithms/0046/main.go)&nbsp;&nbsp;[Python](./algorithms/0046/permute.py)|MEDIUM|
 |[47](./algorithms/0047)|[Permutations II](https://leetcode.com/problems/permutations-ii/)&nbsp;&nbsp;[全排列 II](https://leetcode-cn.com/problems/permutations-ii/)|[Go](./algorithms/0047/main.go)&nbsp;&nbsp;[Python](./algorithms/0047/permute_unique.py)|MEDIUM|
 |[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)&nbsp;&nbsp;[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|MEDIUM|
