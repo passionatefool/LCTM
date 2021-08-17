@@ -10,7 +10,7 @@ public class Solution {
         for (int i = 0; i < s.length(); i++) {
             if (m.containsKey(s.charAt(i))) {
                 Integer val = m.get(s.charAt(i));
-                if (start < val) {
+                if (start <= val) {
                     start = val + 1;
                 }
             }
