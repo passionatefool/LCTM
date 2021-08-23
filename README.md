@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|55|61|2|3|
-|MEDIUM|54|69|1|2|
-|HARD|1|4|0|0|
-|TOTAL|110|134|3|5|
+|MEDIUM|54|70|1|2|
+|HARD|2|4|0|0|
+|TOTAL|111|135|3|5|
 
 
 ### Problems
@@ -84,6 +84,7 @@
 |[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)&nbsp;&nbsp;[最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|MEDIUM|
 |[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)&nbsp;&nbsp;[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)|[Go](./algorithms/0131/main.go)&nbsp;&nbsp;[Python](./algorithms/0131/partition.py)|MEDIUM|
 |[134](./algorithms/0134)|[Gas Station](https://leetcode.com/problems/gas-station/)&nbsp;&nbsp;[加油站](https://leetcode-cn.com/problems/gas-station/)|[Go](./algorithms/0134/main.go)|MEDIUM|
+|[135](./algorithms/0135)|[Candy](https://leetcode.com/problems/candy/)&nbsp;&nbsp;[分发糖果](https://leetcode-cn.com/problems/candy/)|[Go](./algorithms/0135/main.go)|HARD|
 |[136](./algorithms/0136)|[Single Number](https://leetcode.com/problems/single-number/)&nbsp;&nbsp;[只出现一次的数字](https://leetcode-cn.com/problems/single-number/)|[Go](./algorithms/0136/main.go)&nbsp;&nbsp;[Python](./algorithms/0136/single_number.py)|EASY|
 |[141](./algorithms/0141)|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)&nbsp;&nbsp;[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[Go](./algorithms/0141/main.go)&nbsp;&nbsp;[Python](./algorithms/0141/has_cycle.py)|EASY|
 |[142](./algorithms/0142)|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)&nbsp;&nbsp;[环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|[Go](./algorithms/0142/main.go)|MEDIUM|
@@ -128,6 +129,7 @@
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)&nbsp;&nbsp;[赎金信](https://leetcode-cn.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|EASY|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)&nbsp;&nbsp;[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|EASY|
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)&nbsp;&nbsp;[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)&nbsp;&nbsp;[Python](./algorithms/0429/level_order.py)|MEDIUM|
+|[437](./algorithms/0437)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)&nbsp;&nbsp;[路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)|[Python](./algorithms/0437/path-sum.py)|MEDIUM|
 |[450](./algorithms/0450)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)&nbsp;&nbsp;[删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)|[Go](./algorithms/0450/main.go)|MEDIUM|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)&nbsp;&nbsp;[四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|MEDIUM|
 |[455](./algorithms/0455)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)&nbsp;&nbsp;[分发饼干](https://leetcode-cn.com/problems/assign-cookies/)|[Go](./algorithms/0455/main.go)&nbsp;&nbsp;[Python](./algorithms/0455/find_content_children.py)|EASY|
