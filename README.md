@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|55|61|2|3|
-|MEDIUM|54|70|1|2|
+|EASY|56|61|2|3|
+|MEDIUM|54|70|1|3|
 |HARD|2|4|0|0|
-|TOTAL|111|135|3|5|
+|TOTAL|112|135|3|6|
 
 
 ### Problems
@@ -19,7 +19,7 @@
 |:---:|:---:|:---:|:---:|
 |[1](./algorithms/0001)|[Two Sum](https://leetcode.com/problems/two-sum/)&nbsp;&nbsp;[两数之和](https://leetcode-cn.com/problems/two-sum/)|[Go](./algorithms/0001/main.go)&nbsp;&nbsp;[Java](./algorithms/0001/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0001/two_sum.py)&nbsp;&nbsp;[Rust](./algorithms/0001/rust.rs)|EASY|
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Java](./algorithms/0002/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
-|[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
+|[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Java](./algorithms/0003/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Python](./algorithms/0007/reverse.py)|EASY|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Java](./algorithms/0015/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)&nbsp;&nbsp;[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|[Go](./algorithms/0017/main.go)&nbsp;&nbsp;[Python](./algorithms/0017/letter_combinations.py)|MEDIUM|
@@ -156,6 +156,7 @@
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
+|[860](./algorithms/0860)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)&nbsp;&nbsp;[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)|[Go](./algorithms/0860/main.go)|EASY|
 |[912](./algorithms/0912)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)&nbsp;&nbsp;[排序数组](https://leetcode-cn.com/problems/sort-an-array/)|[Python](./algorithms/0912/sort_array.py)|MEDIUM|
 |[1005](./algorithms/1005)|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)&nbsp;&nbsp;[K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)|[Go](./algorithms/1005/main.go)&nbsp;&nbsp;[Python](./algorithms/1005/largest_sum_after_k_negations.py)|EASY|
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
