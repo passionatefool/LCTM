@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|56|61|2|3|
-|MEDIUM|54|70|1|3|
+|MEDIUM|55|71|1|3|
 |HARD|2|4|0|0|
-|TOTAL|112|135|3|6|
+|TOTAL|113|136|3|6|
 
 
 ### Problems
@@ -117,6 +117,7 @@
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)&nbsp;&nbsp;[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)&nbsp;&nbsp;[Python](./algorithms/0242/is_anagram.py)|EASY|
 |[257](./algorithms/0257)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)&nbsp;&nbsp;[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)|[Go](./algorithms/0257/main.go)&nbsp;&nbsp;[Python](./algorithms/0257/binary_tree_paths.py)|EASY|
 |[263](./algorithms/0263)|[Ugly Number](https://leetcode.com/problems/ugly-number/)&nbsp;&nbsp;[丑数](https://leetcode-cn.com/problems/ugly-number/)|[Go](./algorithms/0263/main.go)&nbsp;&nbsp;[Python](./algorithms/0263/is_ugly.py)|EASY|
+|[279](./algorithms/0279)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)&nbsp;&nbsp;[完全平方数](https://leetcode-cn.com/problems/perfect-squares/)|[Python](./algorithms/0279/num_squares.py)|MEDIUM|
 |[283](./algorithms/0283)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)&nbsp;&nbsp;[移动零](https://leetcode-cn.com/problems/move-zeroes/)|[Go](./algorithms/0283/main.go)&nbsp;&nbsp;[Python](./algorithms/0283/move_zeroes.py)|EASY|
 |[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)&nbsp;&nbsp;[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./algorithms/0300/length_of_lis.py)|MEDIUM|
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)&nbsp;&nbsp;[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|MEDIUM|
@@ -128,6 +129,7 @@
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)&nbsp;&nbsp;[摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)|[Go](./algorithms/0376/main.go)&nbsp;&nbsp;[Python](./algorithms/0376/wiggle_max_length.py)|MEDIUM|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)&nbsp;&nbsp;[赎金信](https://leetcode-cn.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|EASY|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)&nbsp;&nbsp;[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|EASY|
+|[406](./algorithms/0406)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)&nbsp;&nbsp;[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Go](./algorithms/0406/main.go)|MEDIUM|
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)&nbsp;&nbsp;[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)&nbsp;&nbsp;[Python](./algorithms/0429/level_order.py)|MEDIUM|
 |[437](./algorithms/0437)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)&nbsp;&nbsp;[路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)|[Python](./algorithms/0437/path-sum.py)|MEDIUM|
 |[450](./algorithms/0450)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)&nbsp;&nbsp;[删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)|[Go](./algorithms/0450/main.go)|MEDIUM|
