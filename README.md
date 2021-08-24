@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|56|61|2|3|
-|MEDIUM|55|71|1|3|
+|MEDIUM|56|72|1|3|
 |HARD|2|4|0|0|
-|TOTAL|113|136|3|6|
+|TOTAL|114|137|3|6|
 
 
 ### Problems
@@ -74,6 +74,7 @@
 |[111](./algorithms/0111)|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)&nbsp;&nbsp;[二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)|[Go](./algorithms/0111/main.go)&nbsp;&nbsp;[Python](./algorithms/0111/min_depth.py)|EASY|
 |[112](./algorithms/0112)|[Path Sum](https://leetcode.com/problems/path-sum/)&nbsp;&nbsp;[路径总和](https://leetcode-cn.com/problems/path-sum/)|[Go](./algorithms/0112/main.go)&nbsp;&nbsp;[Python](./algorithms/0112/has_path_sum.py)|EASY|
 |[113](./algorithms/0113)|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)&nbsp;&nbsp;[路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)|[Go](./algorithms/0113/main.go)&nbsp;&nbsp;[Python](./algorithms/0113/path_sum.py)|MEDIUM|
+|[114](./algorithms/0114)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)&nbsp;&nbsp;[二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)|[Python](./algorithms/0114/flatten.py)|MEDIUM|
 |[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)&nbsp;&nbsp;[Python](./algorithms/0116/connect.py)|MEDIUM|
 |[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)&nbsp;&nbsp;[Python](./algorithms/0117/connect.py)|MEDIUM|
 |[120](./algorithms/0120)|[Triangle](https://leetcode.com/problems/triangle/)&nbsp;&nbsp;[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|[Python](./algorithms/0120/minimum_total.py)|MEDIUM|
@@ -133,6 +134,7 @@
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)&nbsp;&nbsp;[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)&nbsp;&nbsp;[Python](./algorithms/0429/level_order.py)|MEDIUM|
 |[437](./algorithms/0437)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)&nbsp;&nbsp;[路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)|[Python](./algorithms/0437/path-sum.py)|MEDIUM|
 |[450](./algorithms/0450)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)&nbsp;&nbsp;[删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)|[Go](./algorithms/0450/main.go)|MEDIUM|
+|[452](./algorithms/0452)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)&nbsp;&nbsp;[用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Go](./algorithms/0452/main.go)|MEDIUM|
 |[454](./algorithms/0454)|[4Sum II](https://leetcode.com/problems/4sum-ii/)&nbsp;&nbsp;[四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)|[Go](./algorithms/0454/main.go)|MEDIUM|
 |[455](./algorithms/0455)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)&nbsp;&nbsp;[分发饼干](https://leetcode-cn.com/problems/assign-cookies/)|[Go](./algorithms/0455/main.go)&nbsp;&nbsp;[Python](./algorithms/0455/find_content_children.py)|EASY|
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)&nbsp;&nbsp;[重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|EASY|
