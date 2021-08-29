@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|56|61|2|3|
-|MEDIUM|56|72|1|3|
+|EASY|56|62|2|3|
+|MEDIUM|57|72|1|3|
 |HARD|2|4|0|0|
-|TOTAL|114|137|3|6|
+|TOTAL|115|138|3|6|
 
 
 ### Problems
@@ -77,6 +77,7 @@
 |[114](./algorithms/0114)|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)&nbsp;&nbsp;[二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)|[Python](./algorithms/0114/flatten.py)|MEDIUM|
 |[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)&nbsp;&nbsp;[Python](./algorithms/0116/connect.py)|MEDIUM|
 |[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)&nbsp;&nbsp;[Python](./algorithms/0117/connect.py)|MEDIUM|
+|[118](./algorithms/0118)|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)&nbsp;&nbsp;[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|[Python](./algorithms/0118/generate.py)|EASY|
 |[120](./algorithms/0120)|[Triangle](https://leetcode.com/problems/triangle/)&nbsp;&nbsp;[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|[Python](./algorithms/0120/minimum_total.py)|MEDIUM|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)&nbsp;&nbsp;[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|EASY|
 |[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)&nbsp;&nbsp;[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Go](./algorithms/0122/main.go)&nbsp;&nbsp;[Python](./algorithms/0122/max_profit.py)|EASY|
@@ -132,6 +133,7 @@
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)&nbsp;&nbsp;[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|EASY|
 |[406](./algorithms/0406)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)&nbsp;&nbsp;[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Go](./algorithms/0406/main.go)|MEDIUM|
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)&nbsp;&nbsp;[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)&nbsp;&nbsp;[Python](./algorithms/0429/level_order.py)|MEDIUM|
+|[435](./algorithms/0435)|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)&nbsp;&nbsp;[无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)|[Go](./algorithms/0435/main.go)|MEDIUM|
 |[437](./algorithms/0437)|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)&nbsp;&nbsp;[路径总和 III](https://leetcode-cn.com/problems/path-sum-iii/)|[Python](./algorithms/0437/path-sum.py)|MEDIUM|
 |[450](./algorithms/0450)|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)&nbsp;&nbsp;[删除二叉搜索树中的节点](https://leetcode-cn.com/problems/delete-node-in-a-bst/)|[Go](./algorithms/0450/main.go)|MEDIUM|
 |[452](./algorithms/0452)|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)&nbsp;&nbsp;[用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Go](./algorithms/0452/main.go)|MEDIUM|
