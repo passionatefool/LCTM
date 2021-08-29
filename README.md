@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|56|62|2|3|
-|MEDIUM|57|72|1|3|
+|EASY|56|63|2|3|
+|MEDIUM|59|72|1|3|
 |HARD|2|4|0|0|
-|TOTAL|115|138|3|6|
+|TOTAL|117|139|3|6|
 
 
 ### Problems
@@ -42,6 +42,7 @@
 |[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)&nbsp;&nbsp;[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|MEDIUM|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)&nbsp;&nbsp;[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|EASY|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Go](./algorithms/0055/main.go)&nbsp;&nbsp;[Python](./algorithms/0055/can_jump.py)|MEDIUM|
+|[56](./algorithms/0056)|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)&nbsp;&nbsp;[合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Go](./algorithms/0056/main.go)|MEDIUM|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)&nbsp;&nbsp;[螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|MEDIUM|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)&nbsp;&nbsp;[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|MEDIUM|
 |[62](./algorithms/0062)|[Unique Paths](https://leetcode.com/problems/unique-paths/)&nbsp;&nbsp;[不同路径](https://leetcode-cn.com/problems/unique-paths/)|[Python](./algorithms/0062/unique_paths.py)|MEDIUM|
@@ -78,6 +79,7 @@
 |[116](./algorithms/0116)|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|[Go](./algorithms/0116/main.go)&nbsp;&nbsp;[Python](./algorithms/0116/connect.py)|MEDIUM|
 |[117](./algorithms/0117)|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)&nbsp;&nbsp;[填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Go](./algorithms/0117/main.go)&nbsp;&nbsp;[Python](./algorithms/0117/connect.py)|MEDIUM|
 |[118](./algorithms/0118)|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)&nbsp;&nbsp;[杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)|[Python](./algorithms/0118/generate.py)|EASY|
+|[119](./algorithms/0119)|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)&nbsp;&nbsp;[杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)|[Python](./algorithms/0119/get_row.py)|EASY|
 |[120](./algorithms/0120)|[Triangle](https://leetcode.com/problems/triangle/)&nbsp;&nbsp;[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|[Python](./algorithms/0120/minimum_total.py)|MEDIUM|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)&nbsp;&nbsp;[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|EASY|
 |[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)&nbsp;&nbsp;[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Go](./algorithms/0122/main.go)&nbsp;&nbsp;[Python](./algorithms/0122/max_profit.py)|EASY|
@@ -161,6 +163,7 @@
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
+|[763](./algorithms/0763)|[Partition Labels](https://leetcode.com/problems/partition-labels/)&nbsp;&nbsp;[划分字母区间](https://leetcode-cn.com/problems/partition-labels/)|[Go](./algorithms/0763/main.go)|MEDIUM|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
 |[860](./algorithms/0860)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)&nbsp;&nbsp;[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)|[Go](./algorithms/0860/main.go)|EASY|
 |[912](./algorithms/0912)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)&nbsp;&nbsp;[排序数组](https://leetcode-cn.com/problems/sort-an-array/)|[Python](./algorithms/0912/sort_array.py)|MEDIUM|
