@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|56|63|2|3|
-|MEDIUM|59|72|1|3|
+|EASY|56|64|2|3|
+|MEDIUM|60|72|1|3|
 |HARD|2|4|0|0|
-|TOTAL|117|139|3|6|
+|TOTAL|118|140|3|6|
 
 
 ### Problems
@@ -102,6 +102,7 @@
 |[152](./algorithms/0152)|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)&nbsp;&nbsp;[乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)|[Python](./algorithms/0152/max_product.py)|MEDIUM|
 |[155](./algorithms/0155)|[Min Stack](https://leetcode.com/problems/min-stack/)&nbsp;&nbsp;[最小栈](https://leetcode-cn.com/problems/min-stack/)|[Go](./algorithms/0155/main.go)&nbsp;&nbsp;[Python](./algorithms/0155/min_stack.py)|EASY|
 |[167](./algorithms/0167)|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)&nbsp;&nbsp;[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[Go](./algorithms/0167/main.go)&nbsp;&nbsp;[Python](./algorithms/0167/two_sum.py)|EASY|
+|[169](./algorithms/0169)|[Majority Element](https://leetcode.com/problems/majority-element/)&nbsp;&nbsp;[多数元素](https://leetcode-cn.com/problems/majority-element/)|[Python](./algorithms/0169/majority_element.py)|EASY|
 |[199](./algorithms/0199)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)&nbsp;&nbsp;[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Go](./algorithms/0199/main.go)&nbsp;&nbsp;[Python](./algorithms/0199/right_side_view.py)|MEDIUM|
 |[202](./algorithms/0202)|[Happy Number](https://leetcode.com/problems/happy-number/)&nbsp;&nbsp;[快乐数](https://leetcode-cn.com/problems/happy-number/)|[Go](./algorithms/0202/main.go)&nbsp;&nbsp;[Python](./algorithms/0202/is_happy.py)|EASY|
 |[203](./algorithms/0203)|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)&nbsp;&nbsp;[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|[Go](./algorithms/0203/main.go)&nbsp;&nbsp;[Python](./algorithms/0203/remove_elements.py)|EASY|
@@ -162,6 +163,7 @@
 |[701](./algorithms/0701)|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[Go](./algorithms/0701/main.go)&nbsp;&nbsp;[Python](./algorithms/0701/insertInto_bst.py)|MEDIUM|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
+|[738](./algorithms/0738)|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)&nbsp;&nbsp;[单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)|[Go](./algorithms/0738/main.go)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[763](./algorithms/0763)|[Partition Labels](https://leetcode.com/problems/partition-labels/)&nbsp;&nbsp;[划分字母区间](https://leetcode-cn.com/problems/partition-labels/)|[Go](./algorithms/0763/main.go)|MEDIUM|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
