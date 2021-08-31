@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|56|64|2|3|
+|EASY|57|65|2|3|
 |MEDIUM|60|72|1|3|
 |HARD|2|4|0|0|
-|TOTAL|118|140|3|6|
+|TOTAL|119|141|3|6|
 
 
 ### Problems
@@ -118,6 +118,7 @@
 |[234](./algorithms/0234)|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)&nbsp;&nbsp;[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)|[Go](./algorithms/0234/main.go)&nbsp;&nbsp;[Python](./algorithms/0234/is_palindrome.py)|EASY|
 |[235](./algorithms/0235)|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Go](./algorithms/0235/main.go)&nbsp;&nbsp;[Python](./algorithms/0235/lowest_common_ancestor.py)|EASY|
 |[236](./algorithms/0236)|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)&nbsp;&nbsp;[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Go](./algorithms/0236/main.go)&nbsp;&nbsp;[Python](./algorithms/0236/lowest_common_ancestor.py)|MEDIUM|
+|[237](./algorithms/0237)|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)&nbsp;&nbsp;[删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)|[Go](./algorithms/0237/main.go)&nbsp;&nbsp;[Python](./algorithms/0237/delete_node.py)|EASY|
 |[239](./algorithms/0239)|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)&nbsp;&nbsp;[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)|[Go](./algorithms/0239/main.go)|HARD|
 |[242](./algorithms/0242)|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)&nbsp;&nbsp;[有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)|[Go](./algorithms/0242/main.go)&nbsp;&nbsp;[Python](./algorithms/0242/is_anagram.py)|EASY|
 |[257](./algorithms/0257)|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)&nbsp;&nbsp;[二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)|[Go](./algorithms/0257/main.go)&nbsp;&nbsp;[Python](./algorithms/0257/binary_tree_paths.py)|EASY|
