@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|60|68|2|4|
-|MEDIUM|62|74|1|4|
+|EASY|61|69|2|4|
+|MEDIUM|63|74|1|4|
 |HARD|3|4|0|0|
-|TOTAL|125|146|3|8|
+|TOTAL|127|147|3|8|
 
 
 ### Problems
@@ -21,6 +21,7 @@
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Java](./algorithms/0002/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
 |[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Java](./algorithms/0003/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Java](./algorithms/0007/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0007/reverse.py)|EASY|
+|[14](./algorithms/0014)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)&nbsp;&nbsp;[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|[Go](./algorithms/0014/main.go)&nbsp;&nbsp;[Python](./algorithms/0014/longest_common_prefix.py)|EASY|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Java](./algorithms/0015/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
 |[17](./algorithms/0017)|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)&nbsp;&nbsp;[电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)|[Go](./algorithms/0017/main.go)&nbsp;&nbsp;[Python](./algorithms/0017/letter_combinations.py)|MEDIUM|
 |[18](./algorithms/0018)|[4Sum](https://leetcode.com/problems/4sum/)&nbsp;&nbsp;[四数之和](https://leetcode-cn.com/problems/4sum/)|[Go](./algorithms/0018/main.go)&nbsp;&nbsp;[Python](./algorithms/0018/four_sum.py)|MEDIUM|
@@ -46,7 +47,7 @@
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)&nbsp;&nbsp;[螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|MEDIUM|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)&nbsp;&nbsp;[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|MEDIUM|
 |[62](./algorithms/0062)|[Unique Paths](https://leetcode.com/problems/unique-paths/)&nbsp;&nbsp;[不同路径](https://leetcode-cn.com/problems/unique-paths/)|[Go](./algorithms/0062/main.go)&nbsp;&nbsp;[Python](./algorithms/0062/unique_paths.py)|MEDIUM|
-|[63](./algorithms/0063)|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)&nbsp;&nbsp;[不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)|[Python](./algorithms/0063/unique_paths_with_obstacles.py)|MEDIUM|
+|[63](./algorithms/0063)|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)&nbsp;&nbsp;[不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)|[Go](./algorithms/0063/main.go)&nbsp;&nbsp;[Python](./algorithms/0063/unique_paths_with_obstacles.py)|MEDIUM|
 |[64](./algorithms/0064)|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)&nbsp;&nbsp;[最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)|[Python](./algorithms/0064/min_path_sum.py)|MEDIUM|
 |[66](./algorithms/0066)|[Plus One](https://leetcode.com/problems/plus-one/)&nbsp;&nbsp;[加一](https://leetcode-cn.com/problems/plus-one/)|[Go](./algorithms/0066/main.go)&nbsp;&nbsp;[Python](./algorithms/0066/plus_one.py)|EASY|
 |[70](./algorithms/0070)|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)&nbsp;&nbsp;[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)|[Go](./algorithms/0070/main.go)&nbsp;&nbsp;[Java](./algorithms/0070/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0070/climb_stairs.py)|EASY|
