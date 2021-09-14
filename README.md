@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|61|69|2|4|
-|MEDIUM|63|74|1|4|
+|MEDIUM|64|75|1|4|
 |HARD|3|4|0|0|
-|TOTAL|127|147|3|8|
+|TOTAL|128|148|3|8|
 
 
 ### Problems
@@ -43,7 +43,7 @@
 |[50](./algorithms/0050)|[Pow(x, n)](https://leetcode.com/problems/powx-n/)&nbsp;&nbsp;[Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)|[Python](./algorithms/0050/my_pow.py)|MEDIUM|
 |[53](./algorithms/0053)|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)&nbsp;&nbsp;[最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)|[Go](./algorithms/0053/main.go)&nbsp;&nbsp;[Python](./algorithms/0053/max_sub_array.py)|EASY|
 |[55](./algorithms/0055)|[Jump Game](https://leetcode.com/problems/jump-game/)&nbsp;&nbsp;[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)|[Go](./algorithms/0055/main.go)&nbsp;&nbsp;[Python](./algorithms/0055/can_jump.py)|MEDIUM|
-|[56](./algorithms/0056)|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)&nbsp;&nbsp;[合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Go](./algorithms/0056/main.go)|MEDIUM|
+|[56](./algorithms/0056)|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)&nbsp;&nbsp;[合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Go](./algorithms/0056/main.go)&nbsp;&nbsp;[Python](./algorithms/0056/merge.py)|MEDIUM|
 |[59](./algorithms/0059)|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)&nbsp;&nbsp;[螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)|[Go](./algorithms/0059/main.go)&nbsp;&nbsp;[Python](./algorithms/0059/generate_matrix.py)|MEDIUM|
 |[61](./algorithms/0061)|[Rotate List](https://leetcode.com/problems/rotate-list/)&nbsp;&nbsp;[旋转链表](https://leetcode-cn.com/problems/rotate-list/)|[Go](./algorithms/0061/main.go)&nbsp;&nbsp;[Python](./algorithms/0061/rotate_right.py)|MEDIUM|
 |[62](./algorithms/0062)|[Unique Paths](https://leetcode.com/problems/unique-paths/)&nbsp;&nbsp;[不同路径](https://leetcode-cn.com/problems/unique-paths/)|[Go](./algorithms/0062/main.go)&nbsp;&nbsp;[Python](./algorithms/0062/unique_paths.py)|MEDIUM|
@@ -129,7 +129,7 @@
 |[283](./algorithms/0283)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)&nbsp;&nbsp;[移动零](https://leetcode-cn.com/problems/move-zeroes/)|[Go](./algorithms/0283/main.go)&nbsp;&nbsp;[Python](./algorithms/0283/move_zeroes.py)|EASY|
 |[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)&nbsp;&nbsp;[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./algorithms/0300/length_of_lis.py)|MEDIUM|
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)&nbsp;&nbsp;[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|MEDIUM|
-|[343](./algorithms/0343)|[Integer Break](https://leetcode.com/problems/integer-break/)&nbsp;&nbsp;[整数拆分](https://leetcode-cn.com/problems/integer-break/)|[Python](./algorithms/0343/integer_break.py)|MEDIUM|
+|[343](./algorithms/0343)|[Integer Break](https://leetcode.com/problems/integer-break/)&nbsp;&nbsp;[整数拆分](https://leetcode-cn.com/problems/integer-break/)|[Go](./algorithms/0343/main.go)&nbsp;&nbsp;[Python](./algorithms/0343/integer_break.py)|MEDIUM|
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)&nbsp;&nbsp;[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|EASY|
 |[345](./algorithms/0345)|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)&nbsp;&nbsp;[反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)|[Python](./algorithms/0345/reverse_vowels.py)|EASY|
 |[347](./algorithms/0347)|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)&nbsp;&nbsp;[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)|[Go](./algorithms/0347/main.go)&nbsp;&nbsp;[Python](./algorithms/0347/top_k_frequent.py)|MEDIUM|
