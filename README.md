@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|61|69|2|4|
+|EASY|62|70|2|4|
 |MEDIUM|64|75|1|4|
 |HARD|3|4|0|0|
-|TOTAL|128|148|3|8|
+|TOTAL|129|149|3|8|
 
 
 ### Problems
@@ -137,6 +137,7 @@
 |[350](./algorithms/0350)|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)&nbsp;&nbsp;[两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)|[Python](./algorithms/0350/intersect.py)|EASY|
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)&nbsp;&nbsp;[摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)|[Go](./algorithms/0376/main.go)&nbsp;&nbsp;[Python](./algorithms/0376/wiggle_max_length.py)|MEDIUM|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)&nbsp;&nbsp;[赎金信](https://leetcode-cn.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|EASY|
+|[389](./algorithms/0389)|[Find the Difference](https://leetcode.com/problems/find-the-difference/)&nbsp;&nbsp;[找不同](https://leetcode-cn.com/problems/find-the-difference/)|[Python](./algorithms/0389/find_the_difference.py)|EASY|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)&nbsp;&nbsp;[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|EASY|
 |[406](./algorithms/0406)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)&nbsp;&nbsp;[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Go](./algorithms/0406/main.go)|MEDIUM|
 |[429](./algorithms/0429)|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)&nbsp;&nbsp;[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)|[Go](./algorithms/0429/main.go)&nbsp;&nbsp;[Python](./algorithms/0429/level_order.py)|MEDIUM|
@@ -156,6 +157,7 @@
 |[530](./algorithms/0530)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)&nbsp;&nbsp;[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|[Go](./algorithms/0530/main.go)|EASY|
 |[538](./algorithms/0538)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)&nbsp;&nbsp;[把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)|[Go](./algorithms/0538/main.go)&nbsp;&nbsp;[Python](./algorithms/0538/convert_bst.py)|MEDIUM|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)&nbsp;&nbsp;[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|EASY|
+|[543](./algorithms/0543)|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)&nbsp;&nbsp;[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|[Go](./algorithms/0543/main.go)|EASY|
 |[559](./algorithms/0559)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)&nbsp;&nbsp;[N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|[Go](./algorithms/0559/main.go)&nbsp;&nbsp;[Python](./algorithms/0559/max_depth.py)|EASY|
 |[567](./algorithms/0567)|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)&nbsp;&nbsp;[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Python](./algorithms/0567/check_inclusion.py)|MEDIUM|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)&nbsp;&nbsp;[分糖果](https://leetcode-cn.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|EASY|
