@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|62|71|2|4|
-|MEDIUM|65|75|1|4|
+|EASY|62|71|2|5|
+|MEDIUM|66|76|1|4|
 |HARD|3|4|0|0|
-|TOTAL|130|150|3|8|
+|TOTAL|131|151|3|9|
 
 
 ### Problems
@@ -88,6 +88,7 @@
 |[124](./algorithms/0124)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)&nbsp;&nbsp;[二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|[Python](./algorithms/0124/max_path_sum.py)|HARD|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)&nbsp;&nbsp;[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|EASY|
 |[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)&nbsp;&nbsp;[最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|MEDIUM|
+|[129](./algorithms/0129)|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)&nbsp;&nbsp;[求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)|[Python](./algorithms/0129/sum_numbers.py)|MEDIUM|
 |[131](./algorithms/0131)|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)&nbsp;&nbsp;[分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)|[Go](./algorithms/0131/main.go)&nbsp;&nbsp;[Python](./algorithms/0131/partition.py)|MEDIUM|
 |[134](./algorithms/0134)|[Gas Station](https://leetcode.com/problems/gas-station/)&nbsp;&nbsp;[加油站](https://leetcode-cn.com/problems/gas-station/)|[Go](./algorithms/0134/main.go)|MEDIUM|
 |[135](./algorithms/0135)|[Candy](https://leetcode.com/problems/candy/)&nbsp;&nbsp;[分发糖果](https://leetcode-cn.com/problems/candy/)|[Go](./algorithms/0135/main.go)|HARD|
@@ -128,7 +129,7 @@
 |[263](./algorithms/0263)|[Ugly Number](https://leetcode.com/problems/ugly-number/)&nbsp;&nbsp;[丑数](https://leetcode-cn.com/problems/ugly-number/)|[Go](./algorithms/0263/main.go)&nbsp;&nbsp;[Python](./algorithms/0263/is_ugly.py)|EASY|
 |[279](./algorithms/0279)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)&nbsp;&nbsp;[完全平方数](https://leetcode-cn.com/problems/perfect-squares/)|[Python](./algorithms/0279/num_squares.py)|MEDIUM|
 |[283](./algorithms/0283)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)&nbsp;&nbsp;[移动零](https://leetcode-cn.com/problems/move-zeroes/)|[Go](./algorithms/0283/main.go)&nbsp;&nbsp;[Python](./algorithms/0283/move_zeroes.py)|EASY|
-|[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)&nbsp;&nbsp;[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./algorithms/0300/length_of_lis.py)|MEDIUM|
+|[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)&nbsp;&nbsp;[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Go](./algorithms/0300/main.go)&nbsp;&nbsp;[Python](./algorithms/0300/length_of_lis.py)|MEDIUM|
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)&nbsp;&nbsp;[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|MEDIUM|
 |[343](./algorithms/0343)|[Integer Break](https://leetcode.com/problems/integer-break/)&nbsp;&nbsp;[整数拆分](https://leetcode-cn.com/problems/integer-break/)|[Go](./algorithms/0343/main.go)&nbsp;&nbsp;[Python](./algorithms/0343/integer_break.py)|MEDIUM|
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)&nbsp;&nbsp;[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|EASY|
@@ -183,5 +184,5 @@
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
-|[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
+|[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Java](./algorithms/1365/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
 |[1438](./algorithms/1438)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)&nbsp;&nbsp;[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Python](./algorithms/1438/longest_subarray.py)|MEDIUM|
