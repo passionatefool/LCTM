@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|62|71|2|5|
-|MEDIUM|66|76|1|4|
+|EASY|63|71|2|5|
+|MEDIUM|66|77|1|4|
 |HARD|3|4|0|0|
-|TOTAL|131|151|3|9|
+|TOTAL|132|152|3|9|
 
 
 ### Problems
@@ -62,7 +62,7 @@
 |[92](./algorithms/0092)|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)&nbsp;&nbsp;[反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)|[Go](./algorithms/0092/main.go)&nbsp;&nbsp;[Python](./algorithms/0092/reverse_between.py)|MEDIUM|
 |[93](./algorithms/0093)|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)&nbsp;&nbsp;[复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses/)|[Go](./algorithms/0093/main.go)&nbsp;&nbsp;[Python](./algorithms/0093/restore_ip_addresses.py)|MEDIUM|
 |[95](./algorithms/0095)|[Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)&nbsp;&nbsp;[不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)|[Python](./algorithms/0095/generate_trees.py)|MEDIUM|
-|[96](./algorithms/0096)|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)&nbsp;&nbsp;[不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)|[Go](./algorithms/0096/main.go)|MEDIUM|
+|[96](./algorithms/0096)|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)&nbsp;&nbsp;[不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)|[Go](./algorithms/0096/main.go)&nbsp;&nbsp;[Python](./algorithms/0096/num_trees.py)|MEDIUM|
 |[98](./algorithms/0098)|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)&nbsp;&nbsp;[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)|[Go](./algorithms/0098/main.go)&nbsp;&nbsp;[Python](./algorithms/0098/is_valid_bst.py)|MEDIUM|
 |[100](./algorithms/0100)|[Same Tree](https://leetcode.com/problems/same-tree/)&nbsp;&nbsp;[相同的树](https://leetcode-cn.com/problems/same-tree/)|[Go](./algorithms/0100/main.go)&nbsp;&nbsp;[Python](./algorithms/0100/is_same_tree.py)|EASY|
 |[101](./algorithms/0101)|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)&nbsp;&nbsp;[对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)|[Go](./algorithms/0101/main.go)&nbsp;&nbsp;[Python](./algorithms/0101/is_symmetric.py)|EASY|
@@ -168,6 +168,7 @@
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)&nbsp;&nbsp;[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|EASY|
 |[654](./algorithms/0654)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)&nbsp;&nbsp;[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[Go](./algorithms/0654/main.go)&nbsp;&nbsp;[Python](./algorithms/0654/construct_maximum_binary_tree.py)|MEDIUM|
 |[669](./algorithms/0669)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)&nbsp;&nbsp;[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)|[Go](./algorithms/0669/main.go)&nbsp;&nbsp;[Python](./algorithms/0669/trim_bst.py)|MEDIUM|
+|[674](./algorithms/0674)|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)&nbsp;&nbsp;[最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|[Go](./algorithms/0674/main.go)|EASY|
 |[700](./algorithms/0700)|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[Go](./algorithms/0700/main.go)&nbsp;&nbsp;[Python](./algorithms/0700/search_bst.py)|EASY|
 |[701](./algorithms/0701)|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[Go](./algorithms/0701/main.go)&nbsp;&nbsp;[Python](./algorithms/0701/insertInto_bst.py)|MEDIUM|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
