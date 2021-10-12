@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|63|71|2|5|
-|MEDIUM|66|77|1|4|
+|MEDIUM|67|78|1|4|
 |HARD|3|4|0|0|
-|TOTAL|132|152|3|9|
+|TOTAL|133|153|3|9|
 
 
 ### Problems
@@ -173,10 +173,11 @@
 |[701](./algorithms/0701)|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[Go](./algorithms/0701/main.go)&nbsp;&nbsp;[Python](./algorithms/0701/insertInto_bst.py)|MEDIUM|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
 |[714](./algorithms/0714)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)&nbsp;&nbsp;[买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Go](./algorithms/0714/main.go)&nbsp;&nbsp;[Python](./algorithms/0714/max_profit.py)|MEDIUM|
-|[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Python](./algorithms/0718/find_length.py)|MEDIUM|
+|[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Go](./algorithms/0718/main.go)&nbsp;&nbsp;[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[738](./algorithms/0738)|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)&nbsp;&nbsp;[单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)|[Go](./algorithms/0738/main.go)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Go](./algorithms/0746/main.go)&nbsp;&nbsp;[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[763](./algorithms/0763)|[Partition Labels](https://leetcode.com/problems/partition-labels/)&nbsp;&nbsp;[划分字母区间](https://leetcode-cn.com/problems/partition-labels/)|[Go](./algorithms/0763/main.go)|MEDIUM|
+|[814](./algorithms/0814)|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)&nbsp;&nbsp;[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[Python](./algorithms/0814/prune_tree.py)|MEDIUM|
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
 |[860](./algorithms/0860)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)&nbsp;&nbsp;[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)|[Go](./algorithms/0860/main.go)|EASY|
 |[912](./algorithms/0912)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)&nbsp;&nbsp;[排序数组](https://leetcode-cn.com/problems/sort-an-array/)|[Python](./algorithms/0912/sort_array.py)|MEDIUM|
