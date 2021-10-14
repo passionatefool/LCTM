@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|63|71|2|5|
-|MEDIUM|67|78|1|4|
+|EASY|63|72|2|5|
+|MEDIUM|68|78|1|4|
 |HARD|3|4|0|0|
-|TOTAL|133|153|3|9|
+|TOTAL|134|154|3|9|
 
 
 ### Problems
@@ -184,7 +184,9 @@
 |[968](./algorithms/0968)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)&nbsp;&nbsp;[监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras/)|[Go](./algorithms/0968/main.go)|HARD|
 |[1005](./algorithms/1005)|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)&nbsp;&nbsp;[K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)|[Go](./algorithms/1005/main.go)&nbsp;&nbsp;[Python](./algorithms/1005/largest_sum_after_k_negations.py)|EASY|
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
+|[1022](./algorithms/1022)|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)&nbsp;&nbsp;[从根到叶的二进制数之和](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Python](./algorithms/1022/sum_root_to_leaf.py)|EASY|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
+|[1143](./algorithms/1143)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)&nbsp;&nbsp;[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|[Go](./algorithms/1143/main.go)|MEDIUM|
 |[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Java](./algorithms/1365/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
 |[1438](./algorithms/1438)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)&nbsp;&nbsp;[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Python](./algorithms/1438/longest_subarray.py)|MEDIUM|
