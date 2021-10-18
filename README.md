@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|63|72|2|5|
-|MEDIUM|68|78|1|4|
+|MEDIUM|69|79|1|4|
 |HARD|3|4|0|0|
-|TOTAL|134|154|3|9|
+|TOTAL|135|155|3|9|
 
 
 ### Problems
@@ -106,6 +106,7 @@
 |[155](./algorithms/0155)|[Min Stack](https://leetcode.com/problems/min-stack/)&nbsp;&nbsp;[最小栈](https://leetcode-cn.com/problems/min-stack/)|[Go](./algorithms/0155/main.go)&nbsp;&nbsp;[Python](./algorithms/0155/min_stack.py)|EASY|
 |[167](./algorithms/0167)|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)&nbsp;&nbsp;[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)|[Go](./algorithms/0167/main.go)&nbsp;&nbsp;[Python](./algorithms/0167/two_sum.py)|EASY|
 |[169](./algorithms/0169)|[Majority Element](https://leetcode.com/problems/majority-element/)&nbsp;&nbsp;[多数元素](https://leetcode-cn.com/problems/majority-element/)|[Python](./algorithms/0169/majority_element.py)|EASY|
+|[189](./algorithms/0189)|[Rotate Array](https://leetcode.com/problems/rotate-array/)&nbsp;&nbsp;[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|[Python](./algorithms/0189/rotate.py)|MEDIUM|
 |[199](./algorithms/0199)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)&nbsp;&nbsp;[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Go](./algorithms/0199/main.go)&nbsp;&nbsp;[Python](./algorithms/0199/right_side_view.py)|MEDIUM|
 |[202](./algorithms/0202)|[Happy Number](https://leetcode.com/problems/happy-number/)&nbsp;&nbsp;[快乐数](https://leetcode-cn.com/problems/happy-number/)|[Go](./algorithms/0202/main.go)&nbsp;&nbsp;[Python](./algorithms/0202/is_happy.py)|EASY|
 |[203](./algorithms/0203)|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)&nbsp;&nbsp;[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|[Go](./algorithms/0203/main.go)&nbsp;&nbsp;[Python](./algorithms/0203/remove_elements.py)|EASY|
@@ -185,6 +186,7 @@
 |[1005](./algorithms/1005)|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)&nbsp;&nbsp;[K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)|[Go](./algorithms/1005/main.go)&nbsp;&nbsp;[Python](./algorithms/1005/largest_sum_after_k_negations.py)|EASY|
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
 |[1022](./algorithms/1022)|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)&nbsp;&nbsp;[从根到叶的二进制数之和](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Python](./algorithms/1022/sum_root_to_leaf.py)|EASY|
+|[1035](./algorithms/1035)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)&nbsp;&nbsp;[不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/)|[Go](./algorithms/1035/main.go)|MEDIUM|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
 |[1143](./algorithms/1143)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)&nbsp;&nbsp;[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|[Go](./algorithms/1143/main.go)|MEDIUM|
