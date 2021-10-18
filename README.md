@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|63|72|2|5|
+|EASY|63|73|2|5|
 |MEDIUM|69|79|1|4|
 |HARD|3|4|0|0|
-|TOTAL|135|155|3|9|
+|TOTAL|135|156|3|9|
 
 
 ### Problems
@@ -164,6 +164,7 @@
 |[543](./algorithms/0543)|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)&nbsp;&nbsp;[二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)|[Go](./algorithms/0543/main.go)|EASY|
 |[559](./algorithms/0559)|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)&nbsp;&nbsp;[N 叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)|[Go](./algorithms/0559/main.go)&nbsp;&nbsp;[Python](./algorithms/0559/max_depth.py)|EASY|
 |[567](./algorithms/0567)|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)&nbsp;&nbsp;[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Python](./algorithms/0567/check_inclusion.py)|MEDIUM|
+|[572](./algorithms/0572)|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)&nbsp;&nbsp;[另一棵树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)|[Python](./algorithms/0572/is_subtree.py)|EASY|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)&nbsp;&nbsp;[分糖果](https://leetcode-cn.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|EASY|
 |[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)&nbsp;&nbsp;[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)|[Go](./algorithms/0617/main.go)&nbsp;&nbsp;[Python](./algorithms/0617/merge_trees.py)|EASY|
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)&nbsp;&nbsp;[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|EASY|
