@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|64|74|2|5|
-|MEDIUM|69|79|1|4|
+|MEDIUM|70|80|1|4|
 |HARD|3|4|0|0|
-|TOTAL|136|157|3|9|
+|TOTAL|137|158|3|9|
 
 
 ### Problems
@@ -167,6 +167,7 @@
 |[567](./algorithms/0567)|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)&nbsp;&nbsp;[字符串的排列](https://leetcode-cn.com/problems/permutation-in-string/)|[Python](./algorithms/0567/check_inclusion.py)|MEDIUM|
 |[572](./algorithms/0572)|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)&nbsp;&nbsp;[另一棵树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)|[Python](./algorithms/0572/is_subtree.py)|EASY|
 |[575](./algorithms/0575)|[Distribute Candies](https://leetcode.com/problems/distribute-candies/)&nbsp;&nbsp;[分糖果](https://leetcode-cn.com/problems/distribute-candies/)|[Python](./algorithms/0575/distribute_candies.py)|EASY|
+|[583](./algorithms/0583)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)&nbsp;&nbsp;[两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/)|[Go](./algorithms/0583/main.go)&nbsp;&nbsp;[Python](./algorithms/0583/min_distance.py)|MEDIUM|
 |[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)&nbsp;&nbsp;[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)|[Go](./algorithms/0617/main.go)&nbsp;&nbsp;[Python](./algorithms/0617/merge_trees.py)|EASY|
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)&nbsp;&nbsp;[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|EASY|
 |[654](./algorithms/0654)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)&nbsp;&nbsp;[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[Go](./algorithms/0654/main.go)&nbsp;&nbsp;[Python](./algorithms/0654/construct_maximum_binary_tree.py)|MEDIUM|
