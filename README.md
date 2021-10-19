@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|63|73|2|5|
+|EASY|64|74|2|5|
 |MEDIUM|69|79|1|4|
 |HARD|3|4|0|0|
-|TOTAL|135|156|3|9|
+|TOTAL|136|157|3|9|
 
 
 ### Problems
@@ -141,6 +141,7 @@
 |[376](./algorithms/0376)|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)&nbsp;&nbsp;[摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence/)|[Go](./algorithms/0376/main.go)&nbsp;&nbsp;[Python](./algorithms/0376/wiggle_max_length.py)|MEDIUM|
 |[383](./algorithms/0383)|[Ransom Note](https://leetcode.com/problems/ransom-note/)&nbsp;&nbsp;[赎金信](https://leetcode-cn.com/problems/ransom-note/)|[Go](./algorithms/0383/main.go)&nbsp;&nbsp;[Python](./algorithms/0383/can_construct.py)|EASY|
 |[389](./algorithms/0389)|[Find the Difference](https://leetcode.com/problems/find-the-difference/)&nbsp;&nbsp;[找不同](https://leetcode-cn.com/problems/find-the-difference/)|[Python](./algorithms/0389/find_the_difference.py)|EASY|
+|[392](./algorithms/0392)|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)&nbsp;&nbsp;[判断子序列](https://leetcode-cn.com/problems/is-subsequence/)|[Go](./algorithms/0392/main.go)|EASY|
 |[404](./algorithms/0404)|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)&nbsp;&nbsp;[左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)|[Go](./algorithms/0404/main.go)&nbsp;&nbsp;[Python](./algorithms/0404/sum_of_left_leaves.py)|EASY|
 |[406](./algorithms/0406)|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)&nbsp;&nbsp;[根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)|[Go](./algorithms/0406/main.go)|MEDIUM|
 |[414](./algorithms/0414)|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)&nbsp;&nbsp;[第三大的数](https://leetcode-cn.com/problems/third-maximum-number/)|[Python](./algorithms/0414/third_max.py)|EASY|
@@ -174,6 +175,7 @@
 |[700](./algorithms/0700)|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[Go](./algorithms/0700/main.go)&nbsp;&nbsp;[Python](./algorithms/0700/search_bst.py)|EASY|
 |[701](./algorithms/0701)|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[Go](./algorithms/0701/main.go)&nbsp;&nbsp;[Python](./algorithms/0701/insertInto_bst.py)|MEDIUM|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
+|[706](./algorithms/0706)|[Design HashMap](https://leetcode.com/problems/design-hashmap/)&nbsp;&nbsp;[设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)|[Python](./algorithms/0706/my_hash_map.py)|EASY|
 |[714](./algorithms/0714)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)&nbsp;&nbsp;[买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Go](./algorithms/0714/main.go)&nbsp;&nbsp;[Python](./algorithms/0714/max_profit.py)|MEDIUM|
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Go](./algorithms/0718/main.go)&nbsp;&nbsp;[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[738](./algorithms/0738)|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)&nbsp;&nbsp;[单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)|[Go](./algorithms/0738/main.go)|MEDIUM|
