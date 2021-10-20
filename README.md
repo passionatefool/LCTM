@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|64|74|2|5|
-|MEDIUM|70|80|1|4|
+|MEDIUM|71|82|1|4|
 |HARD|3|4|0|0|
-|TOTAL|137|158|3|9|
+|TOTAL|138|160|3|9|
 
 
 ### Problems
@@ -20,6 +20,7 @@
 |[1](./algorithms/0001)|[Two Sum](https://leetcode.com/problems/two-sum/)&nbsp;&nbsp;[两数之和](https://leetcode-cn.com/problems/two-sum/)|[Go](./algorithms/0001/main.go)&nbsp;&nbsp;[Java](./algorithms/0001/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0001/two_sum.py)&nbsp;&nbsp;[Rust](./algorithms/0001/rust.rs)|EASY|
 |[2](./algorithms/0002)|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)&nbsp;&nbsp;[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)|[Go](./algorithms/0002/main.go)&nbsp;&nbsp;[Java](./algorithms/0002/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0002/add_two_numbers.py)|MEDIUM|
 |[3](./algorithms/0003)|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)&nbsp;&nbsp;[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Go](./algorithms/0003/main.go)&nbsp;&nbsp;[Java](./algorithms/0003/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0003/length_of_longest_substring.py)&nbsp;&nbsp;[Rust](./algorithms/0003/rust.rs)|MEDIUM|
+|[5](./algorithms/0005)|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)&nbsp;&nbsp;[最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)|[Python](./algorithms/0005/longest_palindrome.py)|MEDIUM|
 |[7](./algorithms/0007)|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)&nbsp;&nbsp;[整数反转](https://leetcode-cn.com/problems/reverse-integer/)|[Java](./algorithms/0007/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0007/reverse.py)|EASY|
 |[14](./algorithms/0014)|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)&nbsp;&nbsp;[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|[Go](./algorithms/0014/main.go)&nbsp;&nbsp;[Python](./algorithms/0014/longest_common_prefix.py)|EASY|
 |[15](./algorithms/0015)|[3Sum](https://leetcode.com/problems/3sum/)&nbsp;&nbsp;[三数之和](https://leetcode-cn.com/problems/3sum/)|[Go](./algorithms/0015/main.go)&nbsp;&nbsp;[Java](./algorithms/0015/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0015/three_sum.py)|MEDIUM|
@@ -170,6 +171,7 @@
 |[583](./algorithms/0583)|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)&nbsp;&nbsp;[两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/)|[Go](./algorithms/0583/main.go)&nbsp;&nbsp;[Python](./algorithms/0583/min_distance.py)|MEDIUM|
 |[617](./algorithms/0617)|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)&nbsp;&nbsp;[合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)|[Go](./algorithms/0617/main.go)&nbsp;&nbsp;[Python](./algorithms/0617/merge_trees.py)|EASY|
 |[637](./algorithms/0637)|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)&nbsp;&nbsp;[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Go](./algorithms/0637/main.go)&nbsp;&nbsp;[Python](./algorithms/0637/average_of_levels.py)|EASY|
+|[647](./algorithms/0647)|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)&nbsp;&nbsp;[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)|[Go](./algorithms/0647/main.go)|MEDIUM|
 |[654](./algorithms/0654)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)&nbsp;&nbsp;[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[Go](./algorithms/0654/main.go)&nbsp;&nbsp;[Python](./algorithms/0654/construct_maximum_binary_tree.py)|MEDIUM|
 |[669](./algorithms/0669)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)&nbsp;&nbsp;[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)|[Go](./algorithms/0669/main.go)&nbsp;&nbsp;[Python](./algorithms/0669/trim_bst.py)|MEDIUM|
 |[674](./algorithms/0674)|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)&nbsp;&nbsp;[最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|[Go](./algorithms/0674/main.go)|EASY|
@@ -193,6 +195,6 @@
 |[1035](./algorithms/1035)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)&nbsp;&nbsp;[不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/)|[Go](./algorithms/1035/main.go)|MEDIUM|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
-|[1143](./algorithms/1143)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)&nbsp;&nbsp;[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|[Go](./algorithms/1143/main.go)|MEDIUM|
+|[1143](./algorithms/1143)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)&nbsp;&nbsp;[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|[Go](./algorithms/1143/main.go)&nbsp;&nbsp;[Python](./algorithms/1143/longest_common_subsequence.py)|MEDIUM|
 |[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Java](./algorithms/1365/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
 |[1438](./algorithms/1438)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)&nbsp;&nbsp;[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Python](./algorithms/1438/longest_subarray.py)|MEDIUM|
