@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|64|74|2|5|
-|MEDIUM|73|84|1|4|
-|HARD|3|5|0|0|
-|TOTAL|140|163|3|9|
+|MEDIUM|73|85|1|4|
+|HARD|4|5|0|0|
+|TOTAL|141|164|3|9|
 
 
 ### Problems
@@ -86,7 +86,7 @@
 |[120](./algorithms/0120)|[Triangle](https://leetcode.com/problems/triangle/)&nbsp;&nbsp;[三角形最小路径和](https://leetcode-cn.com/problems/triangle/)|[Python](./algorithms/0120/minimum_total.py)|MEDIUM|
 |[121](./algorithms/0121)|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)&nbsp;&nbsp;[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[Go](./algorithms/0121/main.go)&nbsp;&nbsp;[Python](./algorithms/0121/max_profit.py)|EASY|
 |[122](./algorithms/0122)|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)&nbsp;&nbsp;[买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Go](./algorithms/0122/main.go)&nbsp;&nbsp;[Python](./algorithms/0122/max_profit.py)|EASY|
-|[124](./algorithms/0124)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)&nbsp;&nbsp;[二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|[Python](./algorithms/0124/max_path_sum.py)|HARD|
+|[124](./algorithms/0124)|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)&nbsp;&nbsp;[二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)|[Go](./algorithms/0124/main.go)&nbsp;&nbsp;[Python](./algorithms/0124/max_path_sum.py)|HARD|
 |[125](./algorithms/0125)|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)&nbsp;&nbsp;[验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)|[Go](./algorithms/0125/main.go)&nbsp;&nbsp;[Python](./algorithms/0125/is_palindrome.py)|EASY|
 |[128](./algorithms/0128)|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)&nbsp;&nbsp;[最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Python](./algorithms/0128/longest_consecutive.py)|MEDIUM|
 |[129](./algorithms/0129)|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)&nbsp;&nbsp;[求根节点到叶节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)|[Python](./algorithms/0129/sum_numbers.py)|MEDIUM|
@@ -162,7 +162,7 @@
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)&nbsp;&nbsp;[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|[Go](./algorithms/0509/main.go)&nbsp;&nbsp;[Python](./algorithms/0509/fib.py)|EASY|
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)&nbsp;&nbsp;[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|MEDIUM|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)&nbsp;&nbsp;[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|MEDIUM|
-|[516](./algorithms/0516)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)&nbsp;&nbsp;[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)|[Go](./algorithms/0516/main.go)|MEDIUM|
+|[516](./algorithms/0516)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)&nbsp;&nbsp;[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)|[Go](./algorithms/0516/main.go)&nbsp;&nbsp;[Python](./algorithms/0516/longest_palindrome_subseq.py)|MEDIUM|
 |[530](./algorithms/0530)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)&nbsp;&nbsp;[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|[Go](./algorithms/0530/main.go)|EASY|
 |[538](./algorithms/0538)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)&nbsp;&nbsp;[把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)|[Go](./algorithms/0538/main.go)&nbsp;&nbsp;[Python](./algorithms/0538/convert_bst.py)|MEDIUM|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)&nbsp;&nbsp;[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|EASY|
