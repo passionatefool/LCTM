@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|64|74|2|5|
-|MEDIUM|74|86|1|4|
+|EASY|65|75|2|5|
+|MEDIUM|74|87|1|4|
 |HARD|4|6|0|0|
-|TOTAL|142|166|3|9|
+|TOTAL|143|168|3|9|
 
 
 ### Problems
@@ -159,6 +159,7 @@
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)&nbsp;&nbsp;[重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|EASY|
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)&nbsp;&nbsp;[LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|HARD|
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)&nbsp;&nbsp;[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)|[Go](./algorithms/0491/main.go)&nbsp;&nbsp;[Python](./algorithms/0491/find_subsequences.py)|MEDIUM|
+|[496](./algorithms/0496)|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)&nbsp;&nbsp;[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/)|[Go](./algorithms/0496/main.go)&nbsp;&nbsp;[Python](./algorithms/0496/next_greater_element.py)|EASY|
 |[501](./algorithms/0501)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)|[Go](./algorithms/0501/main.go)&nbsp;&nbsp;[Python](./algorithms/0501/find_mode.py)|EASY|
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)&nbsp;&nbsp;[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|[Go](./algorithms/0509/main.go)&nbsp;&nbsp;[Python](./algorithms/0509/fib.py)|EASY|
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)&nbsp;&nbsp;[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|MEDIUM|
@@ -187,7 +188,7 @@
 |[714](./algorithms/0714)|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)&nbsp;&nbsp;[买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Go](./algorithms/0714/main.go)&nbsp;&nbsp;[Python](./algorithms/0714/max_profit.py)|MEDIUM|
 |[718](./algorithms/0718)|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)&nbsp;&nbsp;[最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)|[Go](./algorithms/0718/main.go)&nbsp;&nbsp;[Python](./algorithms/0718/find_length.py)|MEDIUM|
 |[738](./algorithms/0738)|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/)&nbsp;&nbsp;[单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)|[Go](./algorithms/0738/main.go)|MEDIUM|
-|[739](./algorithms/0739)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)&nbsp;&nbsp;[每日温度](https://leetcode-cn.com/problems/daily-temperatures/)|[Go](./algorithms/0739/main.go)|MEDIUM|
+|[739](./algorithms/0739)|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)&nbsp;&nbsp;[每日温度](https://leetcode-cn.com/problems/daily-temperatures/)|[Go](./algorithms/0739/main.go)&nbsp;&nbsp;[Python](./algorithms/0739/daily_temperatures.py)|MEDIUM|
 |[746](./algorithms/0746)|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)&nbsp;&nbsp;[使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)|[Go](./algorithms/0746/main.go)&nbsp;&nbsp;[Python](./algorithms/0746/min_cost_climbing_stairs.py)|EASY|
 |[763](./algorithms/0763)|[Partition Labels](https://leetcode.com/problems/partition-labels/)&nbsp;&nbsp;[划分字母区间](https://leetcode-cn.com/problems/partition-labels/)|[Go](./algorithms/0763/main.go)|MEDIUM|
 |[814](./algorithms/0814)|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)&nbsp;&nbsp;[二叉树剪枝](https://leetcode-cn.com/problems/binary-tree-pruning/)|[Python](./algorithms/0814/prune_tree.py)|MEDIUM|
