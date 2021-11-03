@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|65|75|2|5|
-|MEDIUM|75|90|1|4|
-|HARD|4|6|0|0|
-|TOTAL|144|171|3|9|
+|MEDIUM|75|92|1|4|
+|HARD|5|7|0|0|
+|TOTAL|145|174|3|9|
 
 
 ### Problems
@@ -38,6 +38,7 @@
 |[39](./algorithms/0039)|[Combination Sum](https://leetcode.com/problems/combination-sum/)&nbsp;&nbsp;[组合总和](https://leetcode-cn.com/problems/combination-sum/)|[Go](./algorithms/0039/main.go)&nbsp;&nbsp;[Python](./algorithms/0039/combination_sum.py)|MEDIUM|
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Go](./algorithms/0040/main.go)&nbsp;&nbsp;[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
 |[41](./algorithms/0041)|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)&nbsp;&nbsp;[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|[Python](./algorithms/0041/first_missing_positive.py)|HARD|
+|[42](./algorithms/0042)|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)&nbsp;&nbsp;[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Go](./algorithms/0042/main.go)&nbsp;&nbsp;[Python](./algorithms/0042/trap.py)|HARD|
 |[45](./algorithms/0045)|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)&nbsp;&nbsp;[跳跃游戏 II](https://leetcode-cn.com/problems/jump-game-ii/)|[Go](./algorithms/0045/main.go)&nbsp;&nbsp;[Python](./algorithms/0045/jump.py)|MEDIUM|
 |[46](./algorithms/0046)|[Permutations](https://leetcode.com/problems/permutations/)&nbsp;&nbsp;[全排列](https://leetcode-cn.com/problems/permutations/)|[Go](./algorithms/0046/main.go)&nbsp;&nbsp;[Python](./algorithms/0046/permute.py)|MEDIUM|
 |[47](./algorithms/0047)|[Permutations II](https://leetcode.com/problems/permutations-ii/)&nbsp;&nbsp;[全排列 II](https://leetcode-cn.com/problems/permutations-ii/)|[Go](./algorithms/0047/main.go)&nbsp;&nbsp;[Python](./algorithms/0047/permute_unique.py)|MEDIUM|
@@ -164,7 +165,7 @@
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)&nbsp;&nbsp;[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)|[Go](./algorithms/0491/main.go)&nbsp;&nbsp;[Python](./algorithms/0491/find_subsequences.py)|MEDIUM|
 |[496](./algorithms/0496)|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)&nbsp;&nbsp;[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/)|[Go](./algorithms/0496/main.go)&nbsp;&nbsp;[Python](./algorithms/0496/next_greater_element.py)|EASY|
 |[501](./algorithms/0501)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)|[Go](./algorithms/0501/main.go)&nbsp;&nbsp;[Python](./algorithms/0501/find_mode.py)|EASY|
-|[503](./algorithms/0503)|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)&nbsp;&nbsp;[下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)|[Go](./algorithms/0503/main.go)|MEDIUM|
+|[503](./algorithms/0503)|[Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)&nbsp;&nbsp;[下一个更大元素 II](https://leetcode-cn.com/problems/next-greater-element-ii/)|[Go](./algorithms/0503/main.go)&nbsp;&nbsp;[Python](./algorithms/0503/next_greater_elements.py)|MEDIUM|
 |[509](./algorithms/0509)|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)&nbsp;&nbsp;[斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)|[Go](./algorithms/0509/main.go)&nbsp;&nbsp;[Python](./algorithms/0509/fib.py)|EASY|
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)&nbsp;&nbsp;[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|MEDIUM|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)&nbsp;&nbsp;[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|MEDIUM|
@@ -202,6 +203,7 @@
 |[968](./algorithms/0968)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)&nbsp;&nbsp;[监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras/)|[Go](./algorithms/0968/main.go)|HARD|
 |[1005](./algorithms/1005)|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)&nbsp;&nbsp;[K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)|[Go](./algorithms/1005/main.go)&nbsp;&nbsp;[Python](./algorithms/1005/largest_sum_after_k_negations.py)|EASY|
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
+|[1019](./algorithms/1019)|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)&nbsp;&nbsp;[链表中的下一个更大节点](https://leetcode-cn.com/problems/next-greater-node-in-linked-list/)|[Python](./algorithms/1019/next_larger_nodes.py)|MEDIUM|
 |[1022](./algorithms/1022)|[Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)&nbsp;&nbsp;[从根到叶的二进制数之和](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/)|[Python](./algorithms/1022/sum_root_to_leaf.py)|EASY|
 |[1035](./algorithms/1035)|[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)&nbsp;&nbsp;[不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/)|[Go](./algorithms/1035/main.go)|MEDIUM|
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
