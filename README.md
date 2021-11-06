@@ -9,9 +9,9 @@
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
 |EASY|65|75|2|5|
-|MEDIUM|75|92|1|4|
-|HARD|5|7|0|0|
-|TOTAL|145|174|3|9|
+|MEDIUM|75|95|1|4|
+|HARD|6|7|0|0|
+|TOTAL|146|177|3|9|
 
 
 ### Problems
@@ -29,6 +29,7 @@
 |[19](./algorithms/0019)|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)&nbsp;&nbsp;[删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)|[Go](./algorithms/0019/main.go)&nbsp;&nbsp;[Java](./algorithms/0019/Solution.java)&nbsp;&nbsp;[Python](./algorithms/0019/remove_nth_from_end.py)|MEDIUM|
 |[20](./algorithms/0020)|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)&nbsp;&nbsp;[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|[Go](./algorithms/0020/main.go)&nbsp;&nbsp;[Python](./algorithms/0020/is_valid.py)&nbsp;&nbsp;[Rust](./algorithms/0020/rust.rs)|EASY|
 |[21](./algorithms/0021)|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)&nbsp;&nbsp;[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[Go](./algorithms/0021/main.go)&nbsp;&nbsp;[Python](./algorithms/0021/merge_two_lists.py)|EASY|
+|[22](./algorithms/0022)|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)&nbsp;&nbsp;[括号生成](https://leetcode-cn.com/problems/generate-parentheses/)|[Python](./algorithms/0022/generate_parenthesis.py)|MEDIUM|
 |[24](./algorithms/0024)|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)&nbsp;&nbsp;[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|[Go](./algorithms/0024/main.go)&nbsp;&nbsp;[Python](./algorithms/0024/swap_pairs.py)|MEDIUM|
 |[26](./algorithms/0026)|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)&nbsp;&nbsp;[删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[Go](./algorithms/0026/main.go)&nbsp;&nbsp;[Python](./algorithms/0026/remove_duplicates.py)|EASY|
 |[27](./algorithms/0027)|[Remove Element](https://leetcode.com/problems/remove-element/)&nbsp;&nbsp;[移除元素](https://leetcode-cn.com/problems/remove-element/)|[Go](./algorithms/0027/main.go)&nbsp;&nbsp;[Python](./algorithms/0027/remove_element.py)|EASY|
@@ -58,6 +59,7 @@
 |[78](./algorithms/0078)|[Subsets](https://leetcode.com/problems/subsets/)&nbsp;&nbsp;[子集](https://leetcode-cn.com/problems/subsets/)|[Go](./algorithms/0078/main.go)&nbsp;&nbsp;[Python](./algorithms/0078/subsets.py)|MEDIUM|
 |[82](./algorithms/0082)|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)&nbsp;&nbsp;[删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)|[Go](./algorithms/0082/main.go)&nbsp;&nbsp;[Python](./algorithms/0082/delete_duplicates.py)|MEDIUM|
 |[83](./algorithms/0083)|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)&nbsp;&nbsp;[删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)|[Go](./algorithms/0083/main.go)&nbsp;&nbsp;[Python](./algorithms/0083/delete_duplicates.py)|EASY|
+|[84](./algorithms/0084)|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)&nbsp;&nbsp;[柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)|[Go](./algorithms/0084/main.go)|HARD|
 |[86](./algorithms/0086)|[Partition List](https://leetcode.com/problems/partition-list/)&nbsp;&nbsp;[分隔链表](https://leetcode-cn.com/problems/partition-list/)|[Go](./algorithms/0086/main.go)&nbsp;&nbsp;[Python](./algorithms/0086/partition.py)|MEDIUM|
 |[88](./algorithms/0088)|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)&nbsp;&nbsp;[合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)|[Go](./algorithms/0088/main.go)&nbsp;&nbsp;[Python](./algorithms/0088/merge.py)|EASY|
 |[90](./algorithms/0090)|[Subsets II](https://leetcode.com/problems/subsets-ii/)&nbsp;&nbsp;[子集 II](https://leetcode-cn.com/problems/subsets-ii/)|[Go](./algorithms/0090/main.go)&nbsp;&nbsp;[Python](./algorithms/0090/subsets_with_dup.py)|MEDIUM|
@@ -139,6 +141,7 @@
 |[279](./algorithms/0279)|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)&nbsp;&nbsp;[完全平方数](https://leetcode-cn.com/problems/perfect-squares/)|[Python](./algorithms/0279/num_squares.py)|MEDIUM|
 |[283](./algorithms/0283)|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)&nbsp;&nbsp;[移动零](https://leetcode-cn.com/problems/move-zeroes/)|[Go](./algorithms/0283/main.go)&nbsp;&nbsp;[Python](./algorithms/0283/move_zeroes.py)|EASY|
 |[300](./algorithms/0300)|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)&nbsp;&nbsp;[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Go](./algorithms/0300/main.go)&nbsp;&nbsp;[Python](./algorithms/0300/length_of_lis.py)|MEDIUM|
+|[322](./algorithms/0322)|[Coin Change](https://leetcode.com/problems/coin-change/)&nbsp;&nbsp;[零钱兑换](https://leetcode-cn.com/problems/coin-change/)|[Python](./algorithms/0322/coin_change.py)|MEDIUM|
 |[328](./algorithms/0328)|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)&nbsp;&nbsp;[奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)|[Python](./algorithms/0328/odd_even_list.py)|MEDIUM|
 |[343](./algorithms/0343)|[Integer Break](https://leetcode.com/problems/integer-break/)&nbsp;&nbsp;[整数拆分](https://leetcode-cn.com/problems/integer-break/)|[Go](./algorithms/0343/main.go)&nbsp;&nbsp;[Python](./algorithms/0343/integer_break.py)|MEDIUM|
 |[344](./algorithms/0344)|[Reverse String](https://leetcode.com/problems/reverse-string/)&nbsp;&nbsp;[反转字符串](https://leetcode-cn.com/problems/reverse-string/)|[Go](./algorithms/0344/main.go)&nbsp;&nbsp;[Python](./algorithms/0344/reverse_string.py)|EASY|
@@ -170,6 +173,7 @@
 |[513](./algorithms/0513)|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)&nbsp;&nbsp;[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Go](./algorithms/0513/main.go)&nbsp;&nbsp;[Python](./algorithms/0513/find_bottom_left_value.py)|MEDIUM|
 |[515](./algorithms/0515)|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)&nbsp;&nbsp;[在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)|[Go](./algorithms/0515/main.go)&nbsp;&nbsp;[Python](./algorithms/0515/largest_values.py)|MEDIUM|
 |[516](./algorithms/0516)|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)&nbsp;&nbsp;[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)|[Go](./algorithms/0516/main.go)&nbsp;&nbsp;[Python](./algorithms/0516/longest_palindrome_subseq.py)|MEDIUM|
+|[518](./algorithms/0518)|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)&nbsp;&nbsp;[零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/)|[Python](./algorithms/0518/change.py)|MEDIUM|
 |[530](./algorithms/0530)|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)&nbsp;&nbsp;[二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)|[Go](./algorithms/0530/main.go)|EASY|
 |[538](./algorithms/0538)|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)&nbsp;&nbsp;[把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)|[Go](./algorithms/0538/main.go)&nbsp;&nbsp;[Python](./algorithms/0538/convert_bst.py)|MEDIUM|
 |[541](./algorithms/0541)|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)&nbsp;&nbsp;[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)|[Go](./algorithms/0541/main.go)|EASY|
