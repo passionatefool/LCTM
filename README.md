@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|65|75|2|5|
-|MEDIUM|75|95|1|4|
+|EASY|66|76|2|5|
+|MEDIUM|75|97|1|4|
 |HARD|6|7|0|0|
-|TOTAL|146|177|3|9|
+|TOTAL|147|180|3|9|
 
 
 ### Problems
@@ -116,6 +116,7 @@
 |[189](./algorithms/0189)|[Rotate Array](https://leetcode.com/problems/rotate-array/)&nbsp;&nbsp;[旋转数组](https://leetcode-cn.com/problems/rotate-array/)|[Python](./algorithms/0189/rotate.py)|MEDIUM|
 |[198](./algorithms/0198)|[House Robber](https://leetcode.com/problems/house-robber/)&nbsp;&nbsp;[打家劫舍](https://leetcode-cn.com/problems/house-robber/)|[Python](./algorithms/0198/rob.py)|MEDIUM|
 |[199](./algorithms/0199)|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)&nbsp;&nbsp;[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Go](./algorithms/0199/main.go)&nbsp;&nbsp;[Python](./algorithms/0199/right_side_view.py)|MEDIUM|
+|[200](./algorithms/0200)|[Number of Islands](https://leetcode.com/problems/number-of-islands/)&nbsp;&nbsp;[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)|[Python](./algorithms/0200/num_islands.py)|MEDIUM|
 |[202](./algorithms/0202)|[Happy Number](https://leetcode.com/problems/happy-number/)&nbsp;&nbsp;[快乐数](https://leetcode-cn.com/problems/happy-number/)|[Go](./algorithms/0202/main.go)&nbsp;&nbsp;[Python](./algorithms/0202/is_happy.py)|EASY|
 |[203](./algorithms/0203)|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)&nbsp;&nbsp;[移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)|[Go](./algorithms/0203/main.go)&nbsp;&nbsp;[Python](./algorithms/0203/remove_elements.py)|EASY|
 |[206](./algorithms/0206)|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)&nbsp;&nbsp;[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)|[Go](./algorithms/0206/main.go)&nbsp;&nbsp;[Python](./algorithms/0206/reverse_list.py)|EASY|
@@ -165,6 +166,7 @@
 |[455](./algorithms/0455)|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)&nbsp;&nbsp;[分发饼干](https://leetcode-cn.com/problems/assign-cookies/)|[Go](./algorithms/0455/main.go)&nbsp;&nbsp;[Python](./algorithms/0455/find_content_children.py)|EASY|
 |[459](./algorithms/0459)|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)&nbsp;&nbsp;[重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern/)|[Go](./algorithms/0459/main.go)|EASY|
 |[460](./algorithms/0460)|[LFU Cache](https://leetcode.com/problems/lfu-cache/)&nbsp;&nbsp;[LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)|[Python](./algorithms/0460/lfu.py)|HARD|
+|[463](./algorithms/0463)|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)&nbsp;&nbsp;[岛屿的周长](https://leetcode-cn.com/problems/island-perimeter/)|[Python](./algorithms/0463/island_perimeter.py)|EASY|
 |[491](./algorithms/0491)|[Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)&nbsp;&nbsp;[递增子序列](https://leetcode-cn.com/problems/increasing-subsequences/)|[Go](./algorithms/0491/main.go)&nbsp;&nbsp;[Python](./algorithms/0491/find_subsequences.py)|MEDIUM|
 |[496](./algorithms/0496)|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)&nbsp;&nbsp;[下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/)|[Go](./algorithms/0496/main.go)&nbsp;&nbsp;[Python](./algorithms/0496/next_greater_element.py)|EASY|
 |[501](./algorithms/0501)|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)|[Go](./algorithms/0501/main.go)&nbsp;&nbsp;[Python](./algorithms/0501/find_mode.py)|EASY|
@@ -190,6 +192,7 @@
 |[654](./algorithms/0654)|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)&nbsp;&nbsp;[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[Go](./algorithms/0654/main.go)&nbsp;&nbsp;[Python](./algorithms/0654/construct_maximum_binary_tree.py)|MEDIUM|
 |[669](./algorithms/0669)|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)&nbsp;&nbsp;[修剪二叉搜索树](https://leetcode-cn.com/problems/trim-a-binary-search-tree/)|[Go](./algorithms/0669/main.go)&nbsp;&nbsp;[Python](./algorithms/0669/trim_bst.py)|MEDIUM|
 |[674](./algorithms/0674)|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)&nbsp;&nbsp;[最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)|[Go](./algorithms/0674/main.go)|EASY|
+|[695](./algorithms/0695)|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)&nbsp;&nbsp;[岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)|[Python](./algorithms/0695/max_area_of_island.py)|MEDIUM|
 |[700](./algorithms/0700)|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)|[Go](./algorithms/0700/main.go)&nbsp;&nbsp;[Python](./algorithms/0700/search_bst.py)|EASY|
 |[701](./algorithms/0701)|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)&nbsp;&nbsp;[二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)|[Go](./algorithms/0701/main.go)&nbsp;&nbsp;[Python](./algorithms/0701/insertInto_bst.py)|MEDIUM|
 |[704](./algorithms/0704)|[Binary Search](https://leetcode.com/problems/binary-search/)&nbsp;&nbsp;[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Go](./algorithms/0704/main.go)&nbsp;&nbsp;[Python](./algorithms/0704/search.py)|EASY|
@@ -213,5 +216,5 @@
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
 |[1143](./algorithms/1143)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)&nbsp;&nbsp;[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|[Go](./algorithms/1143/main.go)&nbsp;&nbsp;[Python](./algorithms/1143/longest_common_subsequence.py)|MEDIUM|
-|[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Java](./algorithms/1365/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
+|[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Go](./algorithms/1365/main.go)&nbsp;&nbsp;[Java](./algorithms/1365/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
 |[1438](./algorithms/1438)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)&nbsp;&nbsp;[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Python](./algorithms/1438/longest_subarray.py)|MEDIUM|
