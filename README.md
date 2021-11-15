@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|66|76|2|5|
+|EASY|67|77|2|5|
 |MEDIUM|75|97|1|4|
 |HARD|6|7|0|0|
-|TOTAL|147|180|3|9|
+|TOTAL|148|181|3|9|
 
 
 ### Problems
@@ -207,6 +207,7 @@
 |[821](./algorithms/0821)|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)&nbsp;&nbsp;[字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)|[Python](./algorithms/0821/shortest_to_char.py)|EASY|
 |[860](./algorithms/0860)|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)&nbsp;&nbsp;[柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)|[Go](./algorithms/0860/main.go)|EASY|
 |[912](./algorithms/0912)|[Sort an Array](https://leetcode.com/problems/sort-an-array/)&nbsp;&nbsp;[排序数组](https://leetcode-cn.com/problems/sort-an-array/)|[Python](./algorithms/0912/sort_array.py)|MEDIUM|
+|[941](./algorithms/0941)|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)&nbsp;&nbsp;[有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/)|[Go](./algorithms/0941/main.go)&nbsp;&nbsp;[Python](./algorithms/0941/valid_mountain_array.py)|EASY|
 |[968](./algorithms/0968)|[Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)&nbsp;&nbsp;[监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras/)|[Go](./algorithms/0968/main.go)|HARD|
 |[1005](./algorithms/1005)|[Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/)&nbsp;&nbsp;[K 次取反后最大化的数组和](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations/)|[Go](./algorithms/1005/main.go)&nbsp;&nbsp;[Python](./algorithms/1005/largest_sum_after_k_negations.py)|EASY|
 |[1015](./algorithms/1015)|[Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)&nbsp;&nbsp;[可被 K 整除的最小整数](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k/)|[Python](./algorithms/1015/smallest_repunit_div_by_k.py)|MEDIUM|
