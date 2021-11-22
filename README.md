@@ -8,10 +8,10 @@
 ### Summary
 ||Go|Python|Rust|Java|
 |:---:|:---:|:---:|:---:|:---:|
-|EASY|67|77|2|5|
-|MEDIUM|75|97|1|4|
+|EASY|68|77|2|5|
+|MEDIUM|75|98|1|4|
 |HARD|6|7|0|0|
-|TOTAL|148|181|3|9|
+|TOTAL|149|182|3|9|
 
 
 ### Problems
@@ -35,6 +35,7 @@
 |[27](./algorithms/0027)|[Remove Element](https://leetcode.com/problems/remove-element/)&nbsp;&nbsp;[移除元素](https://leetcode-cn.com/problems/remove-element/)|[Go](./algorithms/0027/main.go)&nbsp;&nbsp;[Python](./algorithms/0027/remove_element.py)|EASY|
 |[28](./algorithms/0028)|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)&nbsp;&nbsp;[实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)|[Go](./algorithms/0028/main.go)&nbsp;&nbsp;[Python](./algorithms/0028/str_str.py)|EASY|
 |[29](./algorithms/0029)|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)&nbsp;&nbsp;[两数相除](https://leetcode-cn.com/problems/divide-two-integers/)|[Python](./algorithms/0029/divide.py)|MEDIUM|
+|[34](./algorithms/0034)|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)&nbsp;&nbsp;[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python](./algorithms/0034/search_range.py)|MEDIUM|
 |[35](./algorithms/0035)|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)&nbsp;&nbsp;[搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)|[Go](./algorithms/0035/main.go)&nbsp;&nbsp;[Python](./algorithms/0035/search_insert.py)|EASY|
 |[39](./algorithms/0039)|[Combination Sum](https://leetcode.com/problems/combination-sum/)&nbsp;&nbsp;[组合总和](https://leetcode-cn.com/problems/combination-sum/)|[Go](./algorithms/0039/main.go)&nbsp;&nbsp;[Python](./algorithms/0039/combination_sum.py)|MEDIUM|
 |[40](./algorithms/0040)|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)&nbsp;&nbsp;[组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)|[Go](./algorithms/0040/main.go)&nbsp;&nbsp;[Python](./algorithms/0040/combination_sum2.py)|MEDIUM|
@@ -217,5 +218,6 @@
 |[1047](./algorithms/1047)|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)&nbsp;&nbsp;[删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)|[Go](./algorithms/1047/main.go)&nbsp;&nbsp;[Python](./algorithms/1047/remove_duplicates.py)|EASY|
 |[1137](./algorithms/1137)|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)&nbsp;&nbsp;[第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)|[Java](./algorithms/1137/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1137/tribonacci.py)|EASY|
 |[1143](./algorithms/1143)|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)&nbsp;&nbsp;[最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)|[Go](./algorithms/1143/main.go)&nbsp;&nbsp;[Python](./algorithms/1143/longest_common_subsequence.py)|MEDIUM|
+|[1207](./algorithms/1207)|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)&nbsp;&nbsp;[独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/)|[Go](./algorithms/1207/main.go)|EASY|
 |[1365](./algorithms/1365)|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)&nbsp;&nbsp;[有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Go](./algorithms/1365/main.go)&nbsp;&nbsp;[Java](./algorithms/1365/Solution.java)&nbsp;&nbsp;[Python](./algorithms/1365/smaller_numbers_than_current.py)|EASY|
 |[1438](./algorithms/1438)|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)&nbsp;&nbsp;[绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)|[Python](./algorithms/1438/longest_subarray.py)|MEDIUM|
